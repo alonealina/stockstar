@@ -26,7 +26,10 @@
                 </nav>
             </header>
 
-            <div id="content1"></div>
+            <div id="content1">
+
+            </div>
+
             <div id="content2">
                 <div class="content2_all">
                     <div class="content2_title none">

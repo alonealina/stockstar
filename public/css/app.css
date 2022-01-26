@@ -168,6 +168,11 @@ li {
     transition: .6s;
 }
 
+.td3s {
+    transition: .6s;
+    transition-delay: .3s;
+}
+
 .td6s {
     transition: .6s;
     transition-delay: .6s;

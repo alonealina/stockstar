@@ -83,7 +83,7 @@ $(function () {
         $('.services').removeClass('none');
         $('.services').css({top: '494px'});
         $('#content4').addClass('none');
-        $('#content4').removeClass('td7s');
+        $('#content4').removeClass('td3s');
 
     } else if (scroll < head2_1_appear_px) {
         $('#content1').css({top: '0px'});
@@ -100,7 +100,7 @@ $(function () {
         $('.news_list').addClass('none');
         $('.news_list').css({top: '404px'});
         $('#content4').removeClass('none');
-        $('#content4').addClass('td7s');
+        $('#content4').addClass('td3s');
 
     } else if (scroll < head2_1_disappear_px) {
         $('#content1').css({top: '0px'});
