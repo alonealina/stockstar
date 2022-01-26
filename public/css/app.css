@@ -20,7 +20,7 @@
 } */
 
 #registration_pc {
-    height:7000px;
+    height:5000px;
 }
 
 #registration_ipad {
@@ -78,7 +78,7 @@ li {
     font: normal normal normal 19px/26px Noto Sans Oriya;
     color: #262626;
     position: absolute;
-    top:8350px;
+    top:6350px;
     z-index: 9999;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     display: flex;
@@ -124,7 +124,8 @@ li {
     z-index:300;
     width: 100%;
     height:1000px;
-    top:1500px;
+    top:0px;
+    left: -2000px;
     position: fixed;
     transition: .5s;
 }
@@ -133,9 +134,8 @@ li {
     z-index:400;
     width: 100%;
     height:1000px;
-    top:4500px;
+    top:2500px;
     position: absolute;
-    transition: .5s;
 }
 
 #content5 {
@@ -143,7 +143,8 @@ li {
     z-index:500;
     width: 100%;
     height:1000px;
-    top:1500px;
+    top:0px;
+    left: 2000px;
     position: fixed;
     transition: .5s;
 }
@@ -152,7 +153,7 @@ li {
     z-index:600;
     width: 100%;
     height:1000px;
-    top:7000px;
+    top:5000px;
     position: absolute;
     transition: .5s;
 }
@@ -300,7 +301,7 @@ li {
 }
 
 .bg4 {
-    top:1500px;
+    top:-1500px;
     left:0px;
     position: fixed;
     z-index: 350;
