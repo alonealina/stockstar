@@ -153,9 +153,9 @@
                     </div>
                     <div class="content5_line"></div>
                 </div>
-                <!-- <div class="button_red google_map">
+                <div class="button_red google_map">
                     <a href="">Google map</a><img src="../../img/yazi.png" class="yazi">
-                </div> -->
+                </div>
 
             </div>
 
