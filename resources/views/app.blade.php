@@ -123,13 +123,13 @@
 
             <div id="content5">
                 <div class="content5_all">
-                    <div class="content5_title">
+                    <div class="content5_title none">
                         <div class="title_1">News</div>
                         <div class="title_2">お知らせ</div>
                     </div>
                 </div>
 
-                <div class="news_list">
+                <div class="news_list none">
                     <div class="content5_line"></div>
                     <div class="news_column">
                         <div class="detail_title">名称</div>
@@ -152,14 +152,46 @@
                         <div class="detail_content">〒107-0062 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
                     </div>
                     <div class="content5_line"></div>
+                    <div class="button_red more">
+                        <a href="">More</a><img src="../../img/yazi.png" class="yazi">
+                    </div>
                 </div>
-                <div class="button_red google_map">
-                    <a href="">Google map</a><img src="../../img/yazi.png" class="yazi">
-                </div>
-
             </div>
 
+            <img src="../../img/bg6.png" class="bg6">
+            <div id="content6">
+                <div class="content6_title none">
+                    <div class="title_1">Contact</div>
+                    <div class="title_2">お問い合わせ</div>
+                </div>
+                <form class="contact_form">
+                    お名前                    
+                    <input class="form_text" placeholder="" name="name" type="text">
+                    返信用メールアドレス                    
+                    <input class="form_text" placeholder="" name="mail" type="text">
+                    電話番号                    
+                    <input class="form_text" placeholder="" name="tel" type="text">
+                    お問い合わせ内容                    
+                    <input class="form_textarea" placeholder="" name="content" type="textarea">
+                    <div class="button_red send">
+                        <a href="">Send</a><img src="../../img/yazi.png" class="yazi">
+                    </div>
+                </form>
+            </div>
+
+
             <footer>
+                <nav class="footer_content">
+                    <img src="../../img/logo.png" class="logo_footer">
+                    <ul class="footer_ul">
+                        <li><a class="" href="/#Company">Company</a></li>
+                        <li><a class="" href="/#Services">Vision</a></li>
+                        <li><a class="" href="/#Services/" target="_blank">Service</a></li>
+                        <li><a class="" href="/#Career">News</a></li>
+                        <li><a class="" href="/#Services">Contact</a></li>
+                    </ul>
+                    <div class="copyright">©︎ 2022 StockStar.inc. All right.</div>
+                </nav>
             </footer>
         </body>
     </div>

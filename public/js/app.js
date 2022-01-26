@@ -10,8 +10,8 @@ $(function () {
     head1_appear_px = 1500;
     head1_disappear_px = 2500;
     head2_1_appear_px = 6000;
-    head2_1_disappear_px = 6500;
-    head2_2_appear_px = 7000;
+    head2_1_disappear_px = 7000;
+    head2_2_appear_px = 7200;
     head2_2_disappear_px = 7500;
     head3_1_appear_px = 8000;
     head3_1_model_appear_px = 9000;
@@ -36,11 +36,12 @@ $(function () {
         $('#content3').css({top: '1500px'});
         $('.bg4').css({top: '1500px'});
         $('#content5').css({top: '1500px'});
+        $('.bg6').css({top: '1500px'});
         $('.content2_all').addClass('none');
-        $('.content2_title').removeClass('td10s');
+        $('.content2_title').removeClass('td6s');
         $('.content2_title').addClass('none');
         $('.content2_title').css({top: '367px'});
-        $('.content2_text').removeClass('td11s');
+        $('.content2_text').removeClass('td7s');
         $('.content2_text').addClass('none');
         $('.content2_text').css({top: '594px'});
 
@@ -50,18 +51,19 @@ $(function () {
         $('#content3').css({top: '1500px'});
         $('.bg4').css({top: '1500px'});
         $('#content5').css({top: '1500px'});
+        $('.bg6').css({top: '1500px'});
         $('.content2_all').removeClass('none');
-        $('.content2_title').addClass('td10s');
+        $('.content2_title').addClass('td6s');
         $('.content2_title').removeClass('none');
         $('.content2_title').css({top: '267px'});
-        $('.content2_text').addClass('td11s');
+        $('.content2_text').addClass('td7s');
         $('.content2_text').removeClass('none');
         $('.content2_text').css({top: '494px'});
         $('.content3_all').addClass('none');
-        $('.content3_title').removeClass('td10s');
+        $('.content3_title').removeClass('td6s');
         $('.content3_title').addClass('none');
         $('.content3_title').css({top: '367px'});
-        $('.services').removeClass('td11s');
+        $('.services').removeClass('td7s');
         $('.services').addClass('none');
         $('.services').css({top: '594px'});
 
@@ -72,11 +74,12 @@ $(function () {
         $('#content3').css({top: '0px'});
         $('.bg4').css({top: '1500px'});
         $('#content5').css({top: '1500px'});
+        $('.bg6').css({top: '1500px'});
         $('.content3_all').removeClass('none');
-        $('.content3_title').addClass('td10s');
+        $('.content3_title').addClass('td6s');
         $('.content3_title').removeClass('none');
         $('.content3_title').css({top: '267px'});
-        $('.services').addClass('td11s');
+        $('.services').addClass('td7s');
         $('.services').removeClass('none');
         $('.services').css({top: '494px'});
 
@@ -86,13 +89,14 @@ $(function () {
         $('#content3').css({top: '0px'});
         $('.bg4').css({top: '0px'});
         $('#content5').css({top: '1500px'});
+        $('.bg6').css({top: '1500px'});
         $('.content5_all').addClass('none');
-        $('.content5_title').removeClass('td10s');
+        $('.content5_title').removeClass('td6s');
         $('.content5_title').addClass('none');
-        $('.content5_title').css({top: '367px'});
-        $('.news_list').removeClass('td11s');
+        $('.content5_title').css({top: '270px'});
+        $('.news_list').removeClass('td7s');
         $('.news_list').addClass('none');
-        $('.news_list').css({top: '504px'});
+        $('.news_list').css({top: '404px'});
 
     } else if (scroll < head2_1_disappear_px) {
         $('#content1').css({top: '0px'});
@@ -100,18 +104,37 @@ $(function () {
         $('#content3').css({top: '0px'});
         $('.bg4').css({top: '0px'});
         $('#content5').css({top: '0px'});
+        $('.bg6').css({top: '1500px'});
         $('.content5_all').removeClass('none');
-        $('.content5_title').addClass('td10s');
+        $('.content5_title').addClass('td6s');
         $('.content5_title').removeClass('none');
-        $('.content5_title').css({top: '267px'});
-        $('.news_list').addClass('td11s');
+        $('.content5_title').css({top: '170px'});
+        $('.news_list').addClass('td7s');
         $('.news_list').removeClass('none');
-        $('.news_list').css({top: '404px'});
-
+        $('.news_list').css({top: '304px'});
+        $('.content6_all').addClass('none');
+        $('.content6_title').removeClass('td6s');
+        $('.content6_title').addClass('none');
+        $('.content6_title').css({top: '400px'});
+        $('.contact_form').removeClass('td7s');
+        $('.contact_form').addClass('none');
+        $('.contact_form').css({top: '467px'});
 
     } else if (scroll < head2_2_appear_px) {
-        $('#head2_1').addClass('none');
-        $('#head2_2').addClass('none');
+        $('#content1').css({top: '0px'});
+        $('#content2').css({top: '0px'});
+        $('#content3').css({top: '0px'});
+        $('.bg4').css({top: '0px'});
+        $('#content5').css({top: '0px'});
+        $('.bg6').css({top: '0px'});
+        $('.content6_all').removeClass('none');
+        $('.content6_title').addClass('td6s');
+        $('.content6_title').removeClass('none');
+        $('.content6_title').css({top: '300px'});
+        $('.contact_form').addClass('td7s');
+        $('.contact_form').removeClass('none');
+        $('.contact_form').css({top: '367px'});
+
     } else if (scroll < head2_2_disappear_px) {
         $('#head2_2').removeClass('none');
         setTimeout(function(){$('.exs').removeClass('none');},1000);
