@@ -20,7 +20,6 @@
 } */
 
 #registration_pc {
-    height:5000px;
 }
 
 #registration_ipad {
@@ -77,7 +76,6 @@ li {
     font: normal normal normal 19px/26px Noto Sans Oriya;
     color: #262626;
     position: absolute;
-    top:6350px;
     z-index: 9999;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     display: flex;
@@ -156,8 +154,29 @@ li {
     transition: .5s;
 }
 
+#vision1 {
+    background: no-repeat url("../../img/vision_bg.jpg");
+    z-index:100;
+    width: 100%;
+    height:1000px;
+    top:0px;
+    position: fixed;
+    transition: .5s;
+}
 
-.content2_title, .content3_title, .content5_title {
+#vision2 {
+    background: no-repeat url("../../img/vision_bg2.png");
+    z-index:200;
+    width: 100%;
+    height:1000px;
+    top:1000px;
+    position: absolute;
+    transition: .5s;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.content2_title, .content3_title, .content5_title, .vision1_title {
     width:100%;
     color: #FFFFFF;
     text-align: center;
@@ -171,6 +190,16 @@ li {
     transition-delay: .3s;
 }
 
+.td4s {
+    transition: .6s;
+    transition-delay: .4s;
+}
+
+.td5s {
+    transition: .6s;
+    transition-delay: .5s;
+}
+
 .td6s {
     transition: .6s;
     transition-delay: .6s;
@@ -179,6 +208,11 @@ li {
 .td7s {
     transition: .6s;
     transition-delay: .7s;
+}
+
+.td8s {
+    transition: .6s;
+    transition-delay: .8s;
 }
 
 .content2_title {
@@ -472,6 +506,28 @@ a:hover, a:link, a:visited {
     margin-top: 5px;
     margin-bottom: 35px;
 }
+
+.vision2_1 {
+    font: normal normal normal 30px/51px Hiragino Sans;
+    letter-spacing: 2.1px;
+    position: relative;
+    top:300px;
+}
+
+.vision2_2 {
+    font: normal normal bold 40px/73px Bangla MN;
+    position: relative;
+    top:300px;
+}
+
+.vision2_3, .vision2_4, .vision2_5, .vision2_6 {
+    font: normal normal normal 20px/34px Hiragino Sans;
+    letter-spacing: 1.4px;
+    position: relative;
+    top:350px;
+}
+
+
 
 
 footer a, footer a:hover {

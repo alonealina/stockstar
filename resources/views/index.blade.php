@@ -2,24 +2,26 @@
 
 @section('content')
 
-<div id="vision1">
-    <div class="vision1_title">
-        <div class="title_1">Vision</div>
-        <div class="title_2">ビジョン</div>
+<div id="content1">
+
+</div>
+
+<div id="content2">
+    <div class="content2_all">
+        <div class="content2_title none">
+            <div class="title_1">Vision</div>
+            <div class="title_2">ビジョン</div>
+        </div>
+        <div class="content2_text none">
+            <div class="content2_text_1">テクノロジーで顧客の未来を明るく照らす</div>
+            <div class="content2_text_2">"Brighten the future of customers with technology."</div>
+            <div class="content2_text_3">StockStarは全く新しい何かを発想する為に存在しています。</div>
+            <div class="button_red view_all">
+                <a href="{{ route('vision') }}">View all</a><img src="../../img/yazi.png" class="yazi">
+            </div>
+        </div>
     </div>
 </div>
-
-<div id="vision2">
-
-    <div class="vision2_1 none">テクノロジーで顧客の未来を明るく照らす</div>
-    <div class="vision2_2 none">“Brighten the future of customers with technology.”</div>
-    <div class="vision2_3 none">StockStarは全く新しい何かを発想する為に存在しています。</div>
-    <div class="vision2_4 none">ブロックチェーンに代表されるような新しい価値の創造は人々の</div>
-    <div class="vision2_5 none">様々な利便性を高めています。そこに私たちStockStarはフォーカスし</div>
-    <div class="vision2_6 none">テクノロジーを駆使した新しいサービスを創出し続けます。</div>
-    
-</div>
-
 <div id="content3">
     <div class="content3_all">
         <div class="content3_title none">

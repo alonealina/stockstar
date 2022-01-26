@@ -5,7 +5,7 @@ $(function () {
       
     scroll = $win.scrollTop();
     //head表示・非表示開始px
-    head_top_disappear_px = 900;
+    head_top_disappear_px = 300;
     head1_appear_px = 1500;
     head1_disappear_px = 2500;
     head2_1_appear_px = 4000;
@@ -15,20 +15,41 @@ $(function () {
 
     //head表示・非表示(最低限)
     if (scroll < head_top_disappear_px) {
+        $('#content1').css({top: '0px'});
+        $('#content2').css({top: '1500px'});
+        $('#content3').css({left: '-2000px'});
+        $('.bg4').css({top: '-1500px'});
+        $('#content5').css({left: '2000px'});
+        $('.bg6').css({top: '1500px'});
+        $('.content2_all').addClass('none');
+        $('.content2_title').removeClass('td6s');
+        $('.content2_title').addClass('none');
+        $('.content2_title').css({top: '367px'});
+        $('.content2_text').removeClass('td7s');
+        $('.content2_text').addClass('none');
+        $('.content2_text').css({top: '594px'});
 
     } else if (scroll < head1_appear_px) {
-        $('.vision2_1').removeClass('none');
-        $('.vision2_2').removeClass('none');
-        $('.vision2_3').removeClass('none');
-        $('.vision2_4').removeClass('none');
-        $('.vision2_5').removeClass('none');
-        $('.vision2_6').removeClass('none');
-        $('.vision2_1').addClass('td3s');
-        $('.vision2_2').addClass('td4s');
-        $('.vision2_3').addClass('td5s');
-        $('.vision2_4').addClass('td6s');
-        $('.vision2_5').addClass('td7s');
-        $('.vision2_6').addClass('td8s');
+        $('#content1').css({top: '0px'});
+        $('#content2').css({top: '0px'});
+        $('#content3').css({left: '-2000px'});
+        $('.bg4').css({top: '-1500px'});
+        $('#content5').css({left: '2000px'});
+        $('.bg6').css({top: '1500px'});
+        $('.content2_all').removeClass('none');
+        $('.content2_title').addClass('td6s');
+        $('.content2_title').removeClass('none');
+        $('.content2_title').css({top: '267px'});
+        $('.content2_text').addClass('td7s');
+        $('.content2_text').removeClass('none');
+        $('.content2_text').css({top: '494px'});
+        $('.content3_all').addClass('none');
+        $('.content3_title').removeClass('td6s');
+        $('.content3_title').addClass('none');
+        $('.content3_title').css({top: '367px'});
+        $('.services').removeClass('td7s');
+        $('.services').addClass('none');
+        $('.services').css({top: '594px'});
 
 
     } else if (scroll < head1_disappear_px) {
