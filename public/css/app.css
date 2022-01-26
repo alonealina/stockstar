@@ -59,9 +59,8 @@ li {
     width:100%;
     text-align:center;
     margin: 0 auto;
-    height:90px;
-    border: 1px solid #707070;
-    font: normal normal normal 22px/31px Noto Sans Oriya;
+    height:70px;
+    font: normal normal normal 16px/31px Noto Sans Oriya;
     color: #262626;
     position: fixed;
     top:0px;
@@ -88,8 +87,7 @@ li {
 .logo {
     margin-top: 14px;
     margin-left: 270px;
-    width: 230px;
-    height: 63px;
+    height: 60%;
 }
 
 .logo_footer {
@@ -134,7 +132,7 @@ li {
     z-index:400;
     width: 100%;
     height:1000px;
-    top:2500px;
+    top:2700px;
     position: absolute;
 }
 
@@ -228,7 +226,7 @@ li {
     z-index:250;
     position: fixed;
     top:504px;
-    font: normal normal normal 18px/31px Hiragino Sans;
+    font: normal normal normal 15px/20px Hiragino Sans;
     letter-spacing: 1.26px;
     color: #FFFFFF;
 }
@@ -239,7 +237,7 @@ li {
 }
 
 .title_2 {
-    font: normal normal normal 25px/43px Hiragino Sans;
+    font: normal normal normal 20px/25px Hiragino Sans;
     letter-spacing: 1.75px;
 }
 
@@ -254,7 +252,7 @@ li {
 }
 
 .content2_text_3 {
-    font: normal normal normal 18px/32px Hiragino Sans;
+    font: normal normal normal 20px/32px Hiragino Sans;
     letter-spacing: 1.4px;
 }
 
@@ -272,7 +270,7 @@ li {
 
 .header_content li {
     display: inline-block;
-    margin: 35px 55px 32px 0;
+    margin: 20px 55px 32px 0;
     text-align: center;
     vertical-align: middle;
 }
@@ -293,14 +291,15 @@ li {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 20px;
-    width: 243px;
-    height: 243px;
-    font: normal normal normal 16px/27px Hiragino Sans;
+    width: 233px;
+    height: 233px;
+    font: normal normal normal 13px/25px Hiragino Sans;
     letter-spacing: 0.48px;
     color: #262626;
 }
 
 .service_img {
+    width: 98%;
     margin-top:2px;
     margin-bottom:13px;
 }
@@ -325,48 +324,48 @@ li {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 20px;
-    width: 902px;
-    height: 755px;
+    width: 810px;
+    height: 590px;
     margin: 0 auto;
     position: relative;
     top:467px;
-    font: normal normal normal 18px/31px Hiragino Sans;
+    font: normal normal normal 15px/20px Hiragino Sans;
     letter-spacing: 1.26px;
     color: #262626;
 }
 
 .contact_form {
-    width: 576px;
+    width: 500px;
     height: 700px;
     margin: 0 auto;
     position: relative;
     top:467px;
-    font: normal normal normal 18px/31px Hiragino Sans;
+    font: normal normal normal 15px/20px Hiragino Sans;
     letter-spacing: 1.26px;
     color: #FFFFFF;
 }
 
 .company_column1, .company_column2 {
-    width: 852px;
+    width: 760px;
     display: flex;
     border-top: #9D9D9D 1px solid;
     margin: 0 auto;
-    padding-top:30px;
+    padding-top:25px;
 }
 
 .company_column1 {
-    height:84px;
+    height:70px;
 }
 
 .company_column2 {
-    height:202px;
+    height:149px;
 }
 
 .content4_line {
-    width: 852px;
+    width: 760px;
     height: 5px;
     background: #9D9D9D 0% 0% no-repeat padding-box;
-    margin: 40px auto 0 auto;
+    margin: 26px auto 0 auto;
 }
 
 .content5_line {
@@ -390,12 +389,12 @@ li {
     padding-left:40px;
 }
 
-.mt13 {
-    margin-top:13px;
+.mt10 {
+    margin-top:10px;
 }
 
-.mt62 {
-    margin-top:62px;
+.mt38 {
+    margin-top:38px;
 }
 
 .button_red a {
@@ -415,18 +414,14 @@ li {
     margin-left: 250px;
 }
 
-.view_all .yazi {
-    margin-top: -70px;
-}
-
-.google_map .yazi, .more .yazi, .send .yazi {
+.view_all .yazi, .google_map .yazi, .more .yazi, .send .yazi {
     margin-top: -80px;
 }
 
 .view_all a {
     margin-top: 90px;
     padding-top:5px;
-    font: normal normal normal 22px/37px Hiragino Sans;
+    font: normal normal normal 20px/34px Hiragino Sans;
     letter-spacing: 1.54px;
 }
 
@@ -460,12 +455,12 @@ a:hover, a:link, a:visited {
 
 .form_text {
     width: 100%;
-    height: 60px;
+    height: 45px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 18px;
+    border-radius: 13px;
     border: none;
     margin-top: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 .form_textarea {

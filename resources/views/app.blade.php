@@ -99,7 +99,7 @@
                         <div class="detail_content">2020年10月1日</div>
                     </div>
                     <div class="company_column2">
-                        <div class="detail_title mt62">事業内容</div>
+                        <div class="detail_title mt38">事業内容</div>
                         <div class="detail_content">
                             １）システム開発<br>
                             ２）ブロックチェーンサービス開発<br>
@@ -113,7 +113,7 @@
                         <div class="detail_content">100万円</div>
                     </div>
                     <div class="company_column1">
-                        <div class="detail_title mt13">東京本社</div>
+                        <div class="detail_title mt10">東京本社</div>
                         <div class="detail_content">〒107-0062 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
                     </div>
                     <div class="content4_line"></div>
