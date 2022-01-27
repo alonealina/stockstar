@@ -1,31 +1,37 @@
-body {
-    max-width: 1280px;
-    min-width: 1000px;
-    margin:0 auto;
-}
 
 html {
-    background-color: #F3F3F3;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
 }
 
-input[type="text"], textarea {
-    border: 1px solid #CCCCCC;
-    border-radius: 4px;
-}
-
-.header_orange {
-    height: 15px;
-    background-color: #FFB01A;
-}
-
-.header_user {
+.header_content {
+    width:100%;
+    text-align:center;
+    margin: 0 auto;
+    height:70px;
+    font: normal normal normal 16px/31px Noto Sans Oriya;
+    color: #262626;
+    position: fixed;
+    top:0px;
+    z-index: 9999;
+    background-color: #FFF;
     display: flex;
 }
 
-.header_user_name {
-    padding-top: 6px;
-    font: normal normal normal 16px/27px Hiragino Sans;
+
+.logo {
+    margin-top: 14px;
+    margin-left: 270px;
+    height: 60%;
 }
+
+.page_title {
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: 270px;
+    font: normal normal normal 20px/24px Hiragino Sans;
+}
+
+
 
 .login_form {
     background-color: #FFFFFF;
