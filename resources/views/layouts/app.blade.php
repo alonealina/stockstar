@@ -15,7 +15,7 @@
         <body>
             <header class="mb-4">
                 <nav class="header_content">
-                <img src="../../img/logo.png" class="logo">
+                    <a href="/"><img src="../../img/logo.png" class="logo"></a>
                 <ul class="header_ul">
                     <li><a class="" href="/#Company">Company</a></li>
                     <li><a class="" href="{{ route('vision') }}">Vision</a></li>

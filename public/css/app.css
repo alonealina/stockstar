@@ -478,6 +478,13 @@ li {
     margin: 40px auto 0 auto;
 }
 
+.content5_line2 {
+    width: 852px;
+    height: 5px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin: 0 auto 0 auto;
+}
+
 .news_column {
     width: 852px;
     display: flex;
@@ -490,6 +497,12 @@ li {
 .detail_title {
     width:250px;
     padding-left:40px;
+}
+
+.news_date {
+    width:165px;
+    padding-left:40px;
+    text-align: left;
 }
 
 .mt10 {

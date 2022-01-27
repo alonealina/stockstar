@@ -111,26 +111,26 @@
     <div class="news_list none">
         <div class="content5_line"></div>
         <div class="news_column">
-            <div class="detail_title">名称</div>
-            <div class="detail_content">株式会社StockStar　（株式会社ストックスター）</div>
+            <div class="news_date">{{ isset($news[0]['notice_date']) ? $news[0]['notice_date'] : null }}</div>
+            <div class="news_content">{{ isset($news[0]['title']) ? $news[0]['title'] : null }}</div>
         </div>
         <div class="news_column">
-            <div class="detail_title">代表者</div>
-            <div class="detail_content">代表取締役CEO　小林 宏至</div>
+            <div class="news_date">{{ isset($news[1]['notice_date']) ? $news[1]['notice_date'] : null }}</div>
+            <div class="news_content">{{ isset($news[1]['title']) ? $news[1]['title'] : null }}</div>
         </div>
         <div class="news_column">
-            <div class="detail_title">設立</div>
-            <div class="detail_content">2020年10月1日</div>
+            <div class="news_date">{{ isset($news[2]['notice_date']) ? $news[2]['notice_date'] : null }}</div>
+            <div class="news_content">{{ isset($news[2]['title']) ? $news[2]['title'] : null }}</div>
         </div>
         <div class="news_column">
-            <div class="detail_title">資本金</div>
-            <div class="detail_content">100万円</div>
+            <div class="news_date">{{ isset($news[3]['notice_date']) ? $news[3]['notice_date'] : null }}</div>
+            <div class="news_content">{{ isset($news[3]['title']) ? $news[3]['title'] : null }}</div>
         </div>
         <div class="news_column">
-            <div class="detail_title mt13">東京本社</div>
-            <div class="detail_content">〒107-0062 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
+            <div class="news_date">{{ isset($news[4]['notice_date']) ? $news[4]['notice_date'] : null }}</div>
+            <div class="news_content">{{ isset($news[4]['title']) ? $news[4]['title'] : null }}</div>
         </div>
-        <div class="content5_line"></div>
+        <div class="content5_line2"></div>
         <div class="button_red more">
             <a href="">More</a><img src="../../img/yazi.png" class="yazi">
         </div>
