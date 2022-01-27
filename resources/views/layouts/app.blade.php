@@ -19,7 +19,7 @@
                 <ul class="header_ul">
                     <li><a class="" href="/#Company">Company</a></li>
                     <li><a class="" href="{{ route('vision') }}">Vision</a></li>
-                    <li><a class="" href="/#Services/" target="_blank">Service</a></li>
+                    <li><a class="" href="{{ route('service') }}">Service</a></li>
                     <li><a class="" href="/#Career">News</a></li>
                     <li><a class="" href="/#Services">Contact</a></li>
                 </ul>
@@ -34,7 +34,7 @@
                     <ul class="footer_ul">
                         <li><a class="" href="/#Company">Company</a></li>
                         <li><a class="" href="{{ route('vision') }}">Vision</a></li>
-                        <li><a class="" href="/#Services/" target="_blank">Service</a></li>
+                        <li><a class="" href="{{ route('service') }}" target="_blank">Service</a></li>
                         <li><a class="" href="/#Career">News</a></li>
                         <li><a class="" href="/#Services">Contact</a></li>
                     </ul>

@@ -95,6 +95,13 @@ li {
     height: 63px;
 }
 
+.service_logo {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 230px;
+    height: 63px;
+}
+
 #content1 {
     background-color: white;
     z-index:100;
@@ -132,6 +139,7 @@ li {
     height:1000px;
     top:2700px;
     position: absolute;
+    pointer-events: none;
 }
 
 #content5 {
@@ -200,7 +208,44 @@ li {
     text-align: center;
 }
 
-.content2_title, .content3_title, .content5_title, .vision1_title {
+#service1 {
+    background: no-repeat url("../../img/vision_bg.jpg");
+    z-index:100;
+    width: 100%;
+    height:1000px;
+    top:0px;
+    position: fixed;
+    transition: .5s;
+}
+
+#service2 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    z-index:200;
+    width: 100%;
+    height:700px;
+    top:1000px;
+    position: absolute;
+    transition: .5s;
+    color: #6C6C6C;
+    text-align: center;
+}
+
+#service3 {
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    z-index:200;
+    width: 100%;
+    height:1310px;
+    top:1700px;
+    position: absolute;
+    transition: .5s;
+    color: #6C6C6C;
+    text-align: left;
+    font: normal normal normal 16px/28px Hiragino Sans;
+    letter-spacing: 1.4px;
+}
+
+
+.content2_title, .content3_title, .content5_title, .vision1_title, .service1_title {
     width:100%;
     color: #FFFFFF;
     text-align: center;
@@ -601,4 +646,88 @@ footer a, footer a:hover {
     letter-spacing: 0px;
     color: #262626;
     width: 100%;
+}
+
+.service_list_bar {
+    margin-top: -70px;
+    padding-top: 120px;
+    display: block;
+}
+
+.service_list_bar li {
+    font: normal normal normal 17px/24px Noto Sans Oriya;
+    letter-spacing: 1.19px;
+    color: #262626;
+    display: table-cell;
+    min-width: 50px;
+    cursor: pointer;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #262626;
+    border-radius: 26px;
+    padding: 8px 25px 8px 25px;
+    display:inline-block;
+    margin: 0 12px 0 12px;
+}
+
+.service_list_bar li a{
+    opacity: 1;
+}
+
+.service_list_bar li.current {
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+}
+
+.service_list_bar li.current a {
+    opacity: 0.5;
+}
+
+.service2_content {
+    margin-top: 60px;
+    color: #262626;
+}
+
+.service2_content1 {
+    font: normal normal normal 34px/56px Hiragino Sans;
+    letter-spacing: 2.8px;
+}
+
+.service2_content2 {
+    margin-top: 20px;
+    font: normal normal normal 16px/25px Hiragino Sans;
+    letter-spacing: 1.4px;
+}
+
+.service_div1, .service_div2, .service_img1, .service_img2 {
+    width:50%;
+    height:655px;
+}
+
+.service_img1 {
+    margin-left: auto;
+}
+
+.system_content2, .block_content2, .it_content2, .esti_content2, .enter_content2 {
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service3_text1, .service3_text3 {
+    font: normal normal normal 26px/40px Hiragino Sans;
+    letter-spacing: 2.1px;
+    margin-top:160px;
+    width:570px;
+}
+
+.service3_text2, .service3_text4 {
+    margin-top:50px;
+    width:570px;
+}
+
+.service3_text1, .service3_text2 {
+    margin-left:auto;
+    margin-right:50px;
+}
+.service3_text3, .service3_text4 {
+    margin-left:50px;
 }

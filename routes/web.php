@@ -12,3 +12,7 @@ Route::get('/', function () {
 Route::get('vision', function () {
     return view('vision');
 })->name('vision');
+
+Route::get('service', function () {
+    return view('service');
+})->name('service');

@@ -29,23 +29,23 @@
             <div class="title_2">事業案内</div>
         </div>
         <ul class="services none">
-            <a class="" href="/#Company"><li>
+            <a class="" href="{{ route('service') }}#system"><li>
                 <img src="../../img/service1.png" class="service_img">
                 システム開発事業
             </li></a>
-            <a class="" href="/#Company"><li>
+            <a class="" href="{{ route('service') }}#block"><li>
                 <img src="../../img/service2.png" class="service_img">
                 ブロックチェーンサービス開発
             </li></a>
-            <a class="" href="/#Company"><li>
+            <a class="" href="{{ route('service') }}#it"><li>
                 <img src="../../img/service3.png" class="service_img">
                 ITコンサルティング
             </li></a>
-            <a class="" href="/#Company"><li>
+            <a class="" href="{{ route('service') }}#esti"><li>
                 <img src="../../img/service4.png" class="service_img">
                 資産運用のコンサルティング
             </li></a>
-            <a class="" href="/#Company"><li>
+            <a class="" href="{{ route('service') }}#enter"><li>
                 <img src="../../img/service5.png" class="service_img">
                 エンターテイメント
             </li></a>

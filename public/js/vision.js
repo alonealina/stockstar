@@ -45,86 +45,8 @@ $(function () {
         $('.vision3_5').addClass('td7s');
         $('.vision3_6').addClass('td8s');
 
-    } else if (scroll < head2_1_appear_px) {
-        $('#content1').css({top: '0px'});
-        $('#content2').css({top: '0px'});
-        $('#content3').css({left: '0px'});
-        $('.bg4').css({top: '0px'});
-        $('#content5').css({left: '2000px'});
-        $('.bg6').css({top: '1500px'});
-        $('.content5_all').addClass('none');
-        $('.content5_title').removeClass('td6s');
-        $('.content5_title').addClass('none');
-        $('.content5_title').css({top: '270px'});
-        $('.news_list').removeClass('td7s');
-        $('.news_list').addClass('none');
-        $('.news_list').css({top: '404px'});
-        $('#content4').removeClass('none');
-        $('#content4').addClass('td3s');
-
-    } else if (scroll < head2_1_disappear_px) {
-        $('#content1').css({top: '0px'});
-        $('#content2').css({top: '0px'});
-        $('#content3').css({left: '0px'});
-        $('.bg4').css({top: '0px'});
-        $('#content5').css({left: '0px'});
-        $('.bg6').css({top: '1500px'});
-        $('.content5_all').removeClass('none');
-        $('.content5_title').addClass('td6s');
-        $('.content5_title').removeClass('none');
-        $('.content5_title').css({top: '170px'});
-        $('.news_list').addClass('td7s');
-        $('.news_list').removeClass('none');
-        $('.news_list').css({top: '304px'});
-        $('.content6_all').addClass('none');
-        $('.content6_title').removeClass('td6s');
-        $('.content6_title').addClass('none');
-        $('.content6_title').css({top: '400px'});
-        $('.contact_form').removeClass('td7s');
-        $('.contact_form').addClass('none');
-        $('.contact_form').css({top: '467px'});
-
-    } else if (scroll < head2_2_appear_px) {
-        $('#content1').css({top: '0px'});
-        $('#content2').css({top: '0px'});
-        $('#content3').css({left: '0px'});
-        $('.bg4').css({top: '0px'});
-        $('#content5').css({left: '0px'});
-        $('.bg6').css({top: '0px'});
-        $('.content6_all').removeClass('none');
-        $('.content6_title').addClass('td6s');
-        $('.content6_title').removeClass('none');
-        $('.content6_title').css({top: '300px'});
-        $('.contact_form').addClass('td7s');
-        $('.contact_form').removeClass('none');
-        $('.contact_form').css({top: '367px'});
-
     }
     
     });
 });
-  
-  $(function(){
-    $('#add_faq').click(function() {
-      if ($(this).prop('checked')) {
-        $('.add_faq_box').show();
-      } else {
-        $('.add_faq_box').hide();
-      }
-    });
-  });
-  
-  $(function(){
-    $('#menu_faq').click(function() {
-      document.documentElement.scrollTop = 17700;
-    });
-  });
-  
-  $(function(){
-    $('#menu_contact').click(function() {
-      document.documentElement.scrollTop = 20000;
-    });
-  });
-  
-  
   
