@@ -11,25 +11,15 @@
 
 <div id="news2">
 
-    <div class="news_list_index">
+    <div class="news_detail">
         <div class="news_line"></div>
-        @foreach($news as $key => $news_array)
-        <a href="{{ route('news.detail', ['id' => $news_array['id']]) }}">
-            <div class="all_news">
-                <div class="all_news_date">{{ $news_array['notice_date'] }}</div>
-                <div class="all_news_title">
-                    {{ $news_array['title'] }}
-                </div>
+            <div class="news_detail_content">
+                <div class="news_detail_date">{{ $news['notice_date'] }}</div>
+                <div class="news_detail_title">{{ $news['title'] }}</div>
+                <div class="news_detail_text">{!! nl2br(e($news['content'])) !!}</div>
             </div>
-        </a>
-        @if($end -1 != $key)
-        <div class="news_line2"></div>
-        @endif
-        @endforeach
         <div class="news_line"></div>
-        <div class="news_paginate">
-        {{ $news->links('pagination::bootstrap-4') }}
-        </div>
+        <a href="{{ route('news') }}"><img src="../../img/back_button.png" class="back_button"></a>
     </div>
 
     <div class="latest_news_list">
