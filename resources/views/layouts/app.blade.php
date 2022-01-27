@@ -20,7 +20,7 @@
                     <li><a class="" href="/#Company">Company</a></li>
                     <li><a class="" href="{{ route('vision') }}">Vision</a></li>
                     <li><a class="" href="{{ route('service') }}">Service</a></li>
-                    <li><a class="" href="/#Career">News</a></li>
+                    <li><a class="" href="{{ route('news') }}">News</a></li>
                     <li><a class="" href="/#Services">Contact</a></li>
                 </ul>
                 </nav>
@@ -35,7 +35,7 @@
                         <li><a class="" href="/#Company">Company</a></li>
                         <li><a class="" href="{{ route('vision') }}">Vision</a></li>
                         <li><a class="" href="{{ route('service') }}" target="_blank">Service</a></li>
-                        <li><a class="" href="/#Career">News</a></li>
+                        <li><a class="" href="{{ route('news') }}">News</a></li>
                         <li><a class="" href="/#Services">Contact</a></li>
                     </ul>
                     <div class="copyright">©︎ 2022 StockStar.inc. All right.</div>

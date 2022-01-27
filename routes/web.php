@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\StockstarController@index')->name('index');
+Route::get('news', 'App\Http\Controllers\StockstarController@news')->name('news');
 // Route::get('restaurants/{id}/show', 'App\Http\Controllers\RestaurantController@show')->name('restaurant.show');
 
 // Route::get('/', function () {

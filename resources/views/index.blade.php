@@ -132,7 +132,7 @@
         </div>
         <div class="content5_line2"></div>
         <div class="button_red more">
-            <a href="">More</a><img src="../../img/yazi.png" class="yazi">
+            <a href="{{ route('news') }}">More</a><img src="../../img/yazi.png" class="yazi">
         </div>
     </div>
 </div>
