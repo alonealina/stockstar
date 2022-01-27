@@ -176,6 +176,30 @@ li {
     text-align: center;
 }
 
+#vision3 {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    z-index:200;
+    width: 100%;
+    height:650px;
+    top:2000px;
+    position: absolute;
+    transition: .5s;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#vision4 {
+    background: no-repeat url("../../img/vision_bg3.png");
+    z-index:200;
+    width: 100%;
+    height: 590px;
+    top:2650px;
+    position: absolute;
+    transition: .5s;
+    color: #FFFFFF;
+    text-align: center;
+}
+
 .content2_title, .content3_title, .content5_title, .vision1_title {
     width:100%;
     color: #FFFFFF;
@@ -525,6 +549,29 @@ a:hover, a:link, a:visited {
     letter-spacing: 1.4px;
     position: relative;
     top:350px;
+}
+
+.vision3_1 {
+    font: normal normal normal 30px/51px Hiragino Sans;
+    letter-spacing: 2.1px;
+    position: relative;
+    color: #6C6C6C;
+    top:180px;
+}
+
+.vision3_2 {
+    font: normal normal bold 40px/73px Bangla MN;
+    position: relative;
+    color: #6C6C6C;
+    top:180px;
+}
+
+.vision3_3, .vision3_4, .vision3_5, .vision3_6 {
+    font: normal normal normal 20px/34px Hiragino Sans;
+    letter-spacing: 1.4px;
+    position: relative;
+    color: #262626;
+    top:230px;
 }
 
 

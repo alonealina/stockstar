@@ -163,3 +163,7 @@
 @section('footer_px')
 <nav class="footer_content" style="top:6350px;">
 @endsection
+
+@section('script')
+<script src="{{ asset('js/app.js') }}"></script>
+@endsection
