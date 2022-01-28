@@ -184,6 +184,10 @@ select {
 }
 
 .logout_button {
-    margin: 15px 50px;
+    margin-left: auto;
+    margin-right: 0px;
 }
 
+.button_list_index {
+    display: flex;
+}

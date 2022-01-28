@@ -18,7 +18,6 @@
             <nav class="header_content">
                 <a href="{{ route('admin.news_list') }}"><img src="../../img/logo.png" class="logo"></a>
                 <div class="page_title">News管理ページ</div>
-                <a href="{{ route('admin.logout') }}"><img src="../../img/logout_button.png" class="logout_button"></a>
             </nav>
         </header>
         @endif

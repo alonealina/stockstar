@@ -2,7 +2,10 @@
 
 @section('content')
 
-<a href="{{ route('admin.news_regist') }}"><img src="../../img/regist_button.png" class=""></a>
+<div class="button_list_index">
+    <a href="{{ route('admin.news_regist') }}"><img src="../../img/regist_button.png" class=""></a>
+    <a href="{{ route('admin.logout') }}" class="logout_button"><img src="../../img/logout_button.png" class=""></a>
+</div>
 
 <div class="news_list">
     <div class="news_list_column border_bottom_column">
