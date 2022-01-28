@@ -39,11 +39,11 @@
     </div>
 
     <div class="service2_block" hidden>
-        <div class="service2_title block_title td6s none">
+        <div class="service2_title block_title td3s none">
             <div class="title_1">Blockchain Service</div>
             <div class="title_2">ブロックチェーンサービス開発</div>
         </div>
-        <div class="service2_content block_content td7s none">
+        <div class="service2_content block_content td4s none">
             <div class="service2_content1">安心な情報保持をブロックチェーンで実現</div>
             <div class="service2_content2">
                 暗号通貨が非常に多くの業界で使用され多くのサービスを生み出しています。<br>
@@ -55,11 +55,11 @@
     </div>
 
     <div class="service2_it" hidden>
-        <div class="service2_title it_title td6s none">
+        <div class="service2_title it_title td3s none">
             <div class="title_1">IT Consulting</div>
             <div class="title_2">ITコンサルティング</div>
         </div>
-        <div class="service2_content it_content td7s none">
+        <div class="service2_content it_content td4s none">
             <div class="service2_content1">企業・ユーザーの「Need」と「Want」を解決する</div>
             <div class="service2_content2">
                 現在では全ての人々が何かしらの環境で「ITテクノロジー」を活用しています。<br>
@@ -71,11 +71,11 @@
     </div>
 
     <div class="service2_esti" hidden>
-        <div class="service2_title esti_title td6s none">
+        <div class="service2_title esti_title td3s none">
             <div class="title_1">Asset Management</div>
             <div class="title_2">資産運用のコンサルティング</div>
         </div>
-        <div class="service2_content esti_content td7s none">
+        <div class="service2_content esti_content td4s none">
             <div class="service2_content1">資産運用のコンサルティング</div>
             <div class="service2_content2">
                 将来や未来を見据えた資産運用は非常に重要なアクションであり正確性が<br>
@@ -87,11 +87,11 @@
     </div>
 
     <div class="service2_enter" hidden>
-        <div class="service2_title enter_title td6s none">
+        <div class="service2_title enter_title td3s none">
             <div class="title_1">Entertainment</div>
             <div class="title_2">エンターテイメント</div>
         </div>
-        <div class="service2_content enter_content td7s none">
+        <div class="service2_content enter_content td4s none">
             <div class="service2_content1">毎日に「ワクワク」を提供したいのがStockStarです</div>
             <div class="service2_content2">
                 皆様のパートナーでありたいと願う弊社は、常に皆様と何かを「楽しみたい」と<br>
@@ -106,10 +106,10 @@
 <div id="service3">
     <div class="system_content2" hidden>
         <div class="service_div1">
-            <div class="service3_text1 td6s">
+            <div class="service3_text1 td3s">
                 より面白いエンターテイメントをIT技術で
             </div>
-            <div class="service3_text2 td7s">
+            <div class="service3_text2 td4s">
                 オンラインゲームやVR、様々な分野で最新技術が活用されユー<br>
                 ザーの毎日を楽しませています。最近ではNFTを活用したオンラ<br>
                 インゲームも非常に高い人気を博しています。今以上のエンター<br>
@@ -120,10 +120,10 @@
         <img src="../../img/system1.png" class="service_img1">
         <img src="../../img/system2.png" class="service_img2">
         <div class="service_div2">
-            <div class="service3_text3 td6s">
+            <div class="service3_text3 td3s">
                 エンターテイメントに新たな価値を創造する
             </div>
-            <div class="service3_text4 td7s">
+            <div class="service3_text4 td4s">
                 弊社が研究開発しているブロックチェーン分野では新しい価値の<br>
                 創造がエンターテイメントのフィールドでも生み出されています。<br>
                 「見たいもの」「読みたいもの」「聞きたいもの」「遊びたいも<br>
@@ -136,10 +136,10 @@
 
     <div class="block_content2" hidden>
         <div class="service_div1">
-            <div class="service3_text1 td6s">
+            <div class="service3_text1 td3s">
                 より面白いエンターテイメントをIT技術で
             </div>
-            <div class="service3_text2 td7s">
+            <div class="service3_text2 td4s">
                 オンラインゲームやVR、様々な分野で最新技術が活用されユー<br>
                 ザーの毎日を楽しませています。最近ではNFTを活用したオンラ<br>
                 インゲームも非常に高い人気を博しています。今以上のエンター<br>
@@ -150,10 +150,10 @@
         <img src="../../img/block1.png" class="service_img1">
         <img src="../../img/block2.png" class="service_img2">
         <div class="service_div2">
-            <div class="service3_text3 td6s">
+            <div class="service3_text3 td3s">
                 エンターテイメントに新たな価値を創造する
             </div>
-            <div class="service3_text4 td7s">
+            <div class="service3_text4 td4s">
                 弊社が研究開発しているブロックチェーン分野では新しい価値の<br>
                 創造がエンターテイメントのフィールドでも生み出されています。<br>
                 「見たいもの」「読みたいもの」「聞きたいもの」「遊びたいも<br>
@@ -166,10 +166,10 @@
 
     <div class="it_content2" hidden>
         <div class="service_div1">
-            <div class="service3_text1 td6s">
+            <div class="service3_text1 td3s">
                 より面白いエンターテイメントをIT技術で
             </div>
-            <div class="service3_text2 td7s">
+            <div class="service3_text2 td4s">
                 オンラインゲームやVR、様々な分野で最新技術が活用されユー<br>
                 ザーの毎日を楽しませています。最近ではNFTを活用したオンラ<br>
                 インゲームも非常に高い人気を博しています。今以上のエンター<br>
@@ -180,10 +180,10 @@
         <img src="../../img/it1.png" class="service_img1">
         <img src="../../img/it2.png" class="service_img2">
         <div class="service_div2">
-            <div class="service3_text3 td6s">
+            <div class="service3_text3 td3s">
                 エンターテイメントに新たな価値を創造する
             </div>
-            <div class="service3_text4 td7s">
+            <div class="service3_text4 td4s">
                 弊社が研究開発しているブロックチェーン分野では新しい価値の<br>
                 創造がエンターテイメントのフィールドでも生み出されています。<br>
                 「見たいもの」「読みたいもの」「聞きたいもの」「遊びたいも<br>
@@ -196,10 +196,10 @@
 
     <div class="esti_content2" hidden>
         <div class="service_div1">
-            <div class="service3_text1 td6s">
+            <div class="service3_text1 td3s">
                 より面白いエンターテイメントをIT技術で
             </div>
-            <div class="service3_text2 td7s">
+            <div class="service3_text2 td4s">
                 オンラインゲームやVR、様々な分野で最新技術が活用されユー<br>
                 ザーの毎日を楽しませています。最近ではNFTを活用したオンラ<br>
                 インゲームも非常に高い人気を博しています。今以上のエンター<br>
@@ -210,10 +210,10 @@
         <img src="../../img/esti1.png" class="service_img1">
         <img src="../../img/esti2.png" class="service_img2">
         <div class="service_div2">
-            <div class="service3_text3 td6s">
+            <div class="service3_text3 td3s">
                 エンターテイメントに新たな価値を創造する
             </div>
-            <div class="service3_text4 td7s">
+            <div class="service3_text4 td4s">
                 弊社が研究開発しているブロックチェーン分野では新しい価値の<br>
                 創造がエンターテイメントのフィールドでも生み出されています。<br>
                 「見たいもの」「読みたいもの」「聞きたいもの」「遊びたいも<br>
@@ -226,10 +226,10 @@
 
     <div class="enter_content2" hidden>
         <div class="service_div1">
-            <div class="service3_text1 td6s">
+            <div class="service3_text1 td3s">
                 より面白いエンターテイメントをIT技術で
             </div>
-            <div class="service3_text2 td7s">
+            <div class="service3_text2 td4s">
                 オンラインゲームやVR、様々な分野で最新技術が活用されユー<br>
                 ザーの毎日を楽しませています。最近ではNFTを活用したオンラ<br>
                 インゲームも非常に高い人気を博しています。今以上のエンター<br>
@@ -240,10 +240,10 @@
         <img src="../../img/enter1.png" class="service_img1">
         <img src="../../img/enter2.png" class="service_img2">
         <div class="service_div2">
-            <div class="service3_text3 td6s">
+            <div class="service3_text3 td3s">
                 エンターテイメントに新たな価値を創造する
             </div>
-            <div class="service3_text4 td7s">
+            <div class="service3_text4 td4s">
                 弊社が研究開発しているブロックチェーン分野では新しい価値の<br>
                 創造がエンターテイメントのフィールドでも生み出されています。<br>
                 「見たいもの」「読みたいもの」「聞きたいもの」「遊びたいも<br>

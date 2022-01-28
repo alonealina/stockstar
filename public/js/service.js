@@ -33,8 +33,8 @@ $(function () {
         console.log(scroll);
 
         //head表示・非表示開始px
-        head_top_disappear_px = 1200;
-        head1_appear_px = 1900;
+        head_top_disappear_px = 1050;
+        head1_appear_px = 1700;
 
         //head表示・非表示(最低限)
         if (scroll < head_top_disappear_px) {
