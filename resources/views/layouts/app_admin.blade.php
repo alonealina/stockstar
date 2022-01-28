@@ -13,13 +13,14 @@
 
 
     <body>
+        @if(!empty(Session::get('login_id')))
         <header class="mb-4">
             <nav class="header_content">
                 <a href="{{ route('admin.news_list') }}"><img src="../../img/logo.png" class="logo"></a>
                 <div class="page_title">News管理ページ</div>
             </nav>
         </header>
-
+        @endif
 
         <div id="admin_content">
             @yield('content')

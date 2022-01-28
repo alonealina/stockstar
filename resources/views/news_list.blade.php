@@ -31,10 +31,10 @@
             <div class="news_item_name">@if($news->release_flg == 1) 公開 @else 非公開 @endif</div>
         </div>
         <div class="news_list_button">
-            <a href=""><img src="../../img/edit_button.png" class="edit_button"></a>
+            <a href="{{ route('admin.news_edit', ['id' => $news['id']]) }}"><img src="../../img/edit_button.png" class="edit_button"></a>
         </div>
         <div class="news_list_button">
-            <a href="" onclick="return confirm('本当に削除しますか？')"><img src="../../img/delete_button.png" class="delete_button"></a>
+            <a href="{{ route('admin.news_delete', ['id' => $news['id']]) }}" onclick="return confirm('本当に削除しますか？')"><img src="../../img/delete_button.png" class="delete_button"></a>
         </div>
     </div>
     @endforeach

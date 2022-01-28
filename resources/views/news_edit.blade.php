@@ -11,7 +11,8 @@
             <div class="news_item_left">NEWS一覧</div>
         </div>
     </div>
-    <form id="form" name="regist_form" action="{{ route('admin.news_store') }}" method="post" enctype="multipart/form-data">
+    <form id="form" name="edit_form" action="{{ route('admin.news_update') }}" method="post" enctype="multipart/form-data">
+        {{ Form::hidden('id', $news->id) }}
         @if($errors->has('title'))
         <div class="comment_error">{{ $errors->first('title') }}</div>
         @endif
@@ -23,14 +24,14 @@
         <div class="flex_form_item flex_news_title">
             <div class="felx_form_title">タイトル</div>
             <div class="felx_form_content">
-                {{ Form::text('title', old('title'), ['class' => 'form-control news_title_input', 'maxlength' => 20]) }}
+                {{ Form::text('title', old('title', $news->title), ['class' => 'form-control news_title_input', 'maxlength' => 20]) }}
             </div>
         </div>
 
         <div class="flex_form_item flex_news_content">
             <div class="felx_form_title">内容</div>
             <div class="felx_form_content">
-                {{ Form::textarea('content', old('content'), ['class' => 'form-control news_content_input', 'rows' => 10, 'maxlength' => 3000]) }}
+                {{ Form::textarea('content', old('content', $news->content), ['class' => 'form-control news_content_input', 'rows' => 10, 'maxlength' => 3000]) }}
             </div>
         </div>
 
@@ -39,12 +40,14 @@
             <div class="felx_form_content">
                 <select name="release">
                     <option value="1" @if(old('release') == 1) selected @endif >公開</option>
-                    <option value="none" @if(old('release') == 'none') selected @endif >非公開</option>
+                    <option value="none" 
+                        @if(old('release') == 'none') selected 
+                        @elseif(empty(old('release')) && $news->release_fle != 1) selected @endif >非公開</option>
                 </select>
             </div>
         </div>
         <div class="d-flex justify-content-center news_paginate">
-            <a href="#" onclick="clickRegistButton()"><img src="../../img/regist_button.png" class="regist_button"></a>
+            <a href="#" onclick="clickEditButton()"><img src="../../img/update_button.png" class="regist_button"></a>
         </div>
 
     </form>

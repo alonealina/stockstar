@@ -128,15 +128,13 @@ $(function () {
     });
 });
   
-  $(function(){
-    $('#add_faq').click(function() {
-      if ($(this).prop('checked')) {
-        $('.add_faq_box').show();
-      } else {
-        $('.add_faq_box').hide();
-      }
-    });
-  });
+function clickRegistButton() {
+  document.forms.regist_form.submit();
+}
+
+function clickEditButton() {
+  document.forms.edit_form.submit();
+}
   
   $(function(){
     $('#menu_faq').click(function() {
