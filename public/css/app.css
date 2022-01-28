@@ -103,11 +103,22 @@ li {
 }
 
 .bg_movie {
-    width: 110%;
-    height: 110%;
-    top: 0px;
+    transform: translateZ(0);
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    transform-origin: 0 0;
+    background-position: left 0 top 0;
+    left: 0;
+    overflow: hidden;
     position: fixed;
+    transform: translateZ(0);
+    width: 120%;
+    will-change: transform;
+    z-index: 0;
+    opacity:0.8;
 }
+
 
 .content1_logo {
     width:100%;
@@ -427,17 +438,20 @@ li {
 }
 
 .footer_ul {
-    width:550px;
+    width: 550px;
     margin: 6px 100px 0 auto;
     text-align: left;
+    font-size: 16px;
 }
 
 .header_content li {
     display: inline-block;
-    margin: 20px 55px 32px 0;
+    margin: 10px 15px 10px 0;
     text-align: center;
     vertical-align: middle;
+    padding: 10px;
 }
+
 
 .footer_content li {
     width: 90px;
@@ -449,14 +463,14 @@ li {
 
 .services li {
     display: inline-block;
-    margin: 10px 40px 32px 0;
+    margin: 10px 15px 10px 0;
     text-align: center;
     vertical-align: middle;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 20px;
-    width: 233px;
-    height: 233px;
+    width: 213px;
+    height: 220px;
     font: normal normal normal 13px/25px Hiragino Sans;
     letter-spacing: 0.48px;
     color: #262626;
@@ -696,9 +710,13 @@ a:hover, a:link, a:visited {
 
 
 
-footer a, footer a:hover {
-    color: white;
+footer a, footer a:hover, header a:hover, .button_red a:hover {
     text-decoration:none;
+    transition: .5s;
+}
+
+footer a:hover, header a:hover, .button_red a:hover {
+    opacity:0.5;
 }
 
 .footer_menu {
@@ -723,7 +741,7 @@ footer a, footer a:hover {
 }
 
 .service_list_bar {
-    margin-top: -70px;
+    margin-top: -90px;
     padding-top: 120px;
     display: block;
 }
@@ -738,9 +756,9 @@ footer a, footer a:hover {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #262626;
     border-radius: 26px;
-    padding: 13px 25px 8px 25px;
+    padding: 13px 16px 8px 25px;
     display: inline-block;
-    margin: 0px 12px 0 12px;
+    margin: 10px 5px 0 5px;
 }
 
 .service_list_bar li a{
@@ -927,5 +945,20 @@ footer a, footer a:hover {
 }
 
 .service2_system{
+    margin-top: 50px;
+}
+
+.service2_block{
+    margin-top: 50px;
+}
+.service2_it{
+    margin-top: 50px;
+}
+
+.service2_esti{
+    margin-top: 50px;
+}
+
+.service2_enter{
     margin-top: 50px;
 }

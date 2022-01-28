@@ -39,10 +39,10 @@ $(function () {
         $('.content2_all').removeClass('none');
         $('.content2_title').addClass('td6s');
         $('.content2_title').removeClass('none');
-        $('.content2_title').css({top: '267px'});
+        $('.content2_title').css({top: '250px'});
         $('.content2_text').addClass('td7s');
         $('.content2_text').removeClass('none');
-        $('.content2_text').css({top: '494px'});
+        $('.content2_text').css({top: '420px'});
         $('.content3_all').addClass('none');
         $('.content3_title').removeClass('td6s');
         $('.content3_title').addClass('none');
@@ -62,10 +62,10 @@ $(function () {
         $('.content3_all').removeClass('none');
         $('.content3_title').addClass('td6s');
         $('.content3_title').removeClass('none');
-        $('.content3_title').css({top: '267px'});
+        $('.content3_title').css({top: '250px'});
         $('.services').addClass('td7s');
         $('.services').removeClass('none');
-        $('.services').css({top: '494px'});
+        $('.services').css({top: '420px'});
         $('#content4').addClass('none');
         $('#content4').removeClass('td3s');
 
@@ -79,7 +79,7 @@ $(function () {
         $('.content5_all').addClass('none');
         $('.content5_title').removeClass('td6s');
         $('.content5_title').addClass('none');
-        $('.content5_title').css({top: '270px'});
+        $('.content5_title').css({top: '200px'});
         $('.news_list').removeClass('td7s');
         $('.news_list').addClass('none');
         $('.news_list').css({top: '404px'});
@@ -96,10 +96,10 @@ $(function () {
         $('.content5_all').removeClass('none');
         $('.content5_title').addClass('td6s');
         $('.content5_title').removeClass('none');
-        $('.content5_title').css({top: '170px'});
+        $('.content5_title').css({top: '150px'});
         $('.news_list').addClass('td7s');
         $('.news_list').removeClass('none');
-        $('.news_list').css({top: '304px'});
+        $('.news_list').css({top: '270px'});
         $('.content6_all').addClass('none');
         $('.content6_title').removeClass('td6s');
         $('.content6_title').addClass('none');
@@ -137,14 +137,14 @@ function clickEditButton() {
 }
   
   $(function(){
-    $('#menu_faq').click(function() {
-      document.documentElement.scrollTop = 17700;
+    $('#company').click(function() {
+      document.documentElement.scrollTop = 2950;
     });
   });
   
   $(function(){
-    $('#menu_contact').click(function() {
-      document.documentElement.scrollTop = 20000;
+    $('#contact').click(function() {
+      document.documentElement.scrollTop = 5150;
     });
   });
   

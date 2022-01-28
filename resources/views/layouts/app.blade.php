@@ -17,11 +17,11 @@
                 <nav class="header_content">
                     <a href="/"><img src="../../img/logo.png" class="logo"></a>
                 <ul class="header_ul">
-                    <li><a class="" href="/#Company">Company</a></li>
+                    <li><a id="company" href="/#company">Company</a></li>
                     <li><a class="" href="{{ route('vision') }}">Vision</a></li>
                     <li><a class="" href="{{ route('service') }}">Service</a></li>
                     <li><a class="" href="{{ route('news') }}">News</a></li>
-                    <li><a class="" href="/#Services">Contact</a></li>
+                    <li><a id="contact" href="/#contact">Contact</a></li>
                 </ul>
                 </nav>
             </header>
