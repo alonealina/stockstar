@@ -136,17 +136,29 @@ function clickEditButton() {
   document.forms.edit_form.submit();
 }
   
-  $(function(){
-    $('#company').click(function() {
-      document.documentElement.scrollTop = 2950;
-    });
+$(function(){
+  $('#company').click(function() {
+    document.documentElement.scrollTop = 2950;
   });
-  
-  $(function(){
-    $('#contact').click(function() {
-      document.documentElement.scrollTop = 5150;
-    });
+});
+
+$(function(){
+  $('#company2').click(function() {
+    document.documentElement.scrollTop = 2950;
   });
+});
+
+$(function(){
+  $('#contact').click(function() {
+    document.documentElement.scrollTop = 5150;
+  });
+});
+
+$(function(){
+  $('#contact2').click(function() {
+    document.documentElement.scrollTop = 5150;
+  });
+});
   
   
   
