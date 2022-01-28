@@ -21,7 +21,7 @@
         </header>
 
 
-        <div class="flexible-list-main" id="flexible-list-main">
+        <div id="admin_content">
             @yield('content')
         </div>
 

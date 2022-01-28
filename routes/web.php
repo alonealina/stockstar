@@ -18,3 +18,4 @@ Route::get('service', function () {
 Route::get('admin/', 'App\Http\Controllers\AdminController@index')->name('admin.index')->middleware('login');
 // Route::get('admin/restaurant_list', 'App\Http\Controllers\AdminRestaurantController@restaurant_list')->name('admin.restaurant_list')->middleware('login');
 Route::get('admin/news_list', 'App\Http\Controllers\StockstarController@news_list')->name('admin.news_list');
+Route::get('admin/news_regist', 'App\Http\Controllers\StockstarController@news_regist')->name('admin.news_regist');

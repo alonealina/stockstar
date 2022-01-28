@@ -31,7 +31,78 @@ html {
     font: normal normal normal 20px/24px Hiragino Sans;
 }
 
+#admin_content {
+    margin-left: 18%;
+    margin-right: 18%;
+    width: 64%;
+    top: 100px;
+    position: absolute;
+}
 
+.news_list {
+    background: #fff;
+    margin-top: 30px;
+    width: 100%;
+    font: normal normal normal 14px/21px Hiragino Sans;
+    color: #262626;
+}
+
+.news_list_column {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: #CCCCCC 1px solid;
+}
+
+.news_list_date {
+    width: 15%;
+}
+
+.news_list_title {
+    width: 45%;
+}
+
+.news_list_status {
+    width: 18%;
+}
+
+.news_list_button {
+    width: 10%;
+}
+
+.news_list_buttonlist {
+    width: 20%;
+}
+
+.news_item_name, .news_item_left {
+    margin: 20px;
+}
+
+.news_item_name, .news_item_name_10px {
+    text-align: center;
+}
+
+.news_item_name_10px {
+    margin-top: 40px;
+    font: normal normal normal 10px/4px Hiragino Sans;
+    color: #333333;
+}
+
+.border_bottom_column {
+    border-bottom: 3px solid #262626;
+}
+
+.edit_button, .delete_button {
+    margin:13px 5px;
+}
+
+.news_paginate {
+    border-top: 3px solid #262626;
+    padding-top:20px;
+}
+
+.news_gray {
+    color: #7C7C7C;
+}
 
 .login_form {
     background-color: #FFFFFF;
@@ -155,10 +226,6 @@ footer a, footer a:hover {
 
 .restaurant_list_column, .setting_list_column {
     border:solid 1px #f3f3f3;
-}
-
-.border_bottom_column {
-    border-bottom: solid 1px #CCC;
 }
 
 .flex_form_priority {

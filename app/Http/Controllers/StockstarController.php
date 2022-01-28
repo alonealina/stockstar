@@ -41,10 +41,15 @@ class StockstarController extends Controller
 
     public function news_list()
     {
-        $news = News::where('release_flg', '1')->orderBy('updated_at', 'desc')->paginate(10);
-        return view('layouts.app_admin', [
-            'news' => $news,
+        $news_list = News::where('release_flg', '1')->orderBy('updated_at', 'desc')->paginate(1);
+        return view('news_list', [
+            'news_list' => $news_list,
         ]);
+    }
+
+    public function news_regist()
+    {
+        return view('news_regist');
     }
 
 }
