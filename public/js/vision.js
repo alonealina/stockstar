@@ -5,8 +5,8 @@ $(function () {
       
     scroll = $win.scrollTop();
     //head表示・非表示開始px
-    head_top_disappear_px = 900;
-    head1_appear_px = 1900;
+    head_top_disappear_px = 500;
+    head1_appear_px = 1400;
     head1_disappear_px = 2500;
     head2_1_appear_px = 4000;
     head2_1_disappear_px = 5000;
