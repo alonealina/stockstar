@@ -99,7 +99,7 @@
         <div class="content4_line"></div>
     </div>
     <div class="button_red google_map">
-        <a href="">Google map</a><img src="../../img/yazi.png" class="yazi">
+        <a href="https://goo.gl/maps/fQkxoL6mP3Qd8weT6">Google map</a><img src="../../img/yazi.png" class="yazi">
     </div>
 
 </div>
