@@ -17,11 +17,11 @@
                 <nav class="header_content">
                     <a href="/"><img src="../../img/logo.png" class="logo"></a>
                 <ul class="header_ul">
-                    <li><a id="company" href="/#company">Company</a></li>
+                    <li><a id="company_jump" href="/#company">Company</a></li>
                     <li><a class="" href="{{ route('vision') }}">Vision</a></li>
                     <li><a class="" href="{{ route('service') }}">Service</a></li>
                     <li><a class="" href="{{ route('news') }}">News</a></li>
-                    <li><a id="contact" href="/#contact">Contact</a></li>
+                    <li><a id="contact_jump" href="/#contact">Contact</a></li>
                 </ul>
                 </nav>
             </header>
@@ -32,11 +32,11 @@
                 @yield('footer_px')
                     <img src="../../img/logo.png" class="logo_footer">
                     <ul class="footer_ul">
-                        <li><a id="company2" href="/#company">Company</a></li>
+                        <li><a id="company_jump2" href="/#company">Company</a></li>
                         <li><a class="" href="{{ route('vision') }}">Vision</a></li>
                         <li><a class="" href="{{ route('service') }}" target="_blank">Service</a></li>
                         <li><a class="" href="{{ route('news') }}">News</a></li>
-                        <li><a id="contact2" href="/#contact">Contact</a></li>
+                        <li><a id="contact_jump2" href="/#contact">Contact</a></li>
                     </ul>
                     <div class="copyright">©︎ 2022 StockStar.inc. All right.</div>
                 </nav>

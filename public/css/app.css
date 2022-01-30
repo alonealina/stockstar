@@ -161,6 +161,7 @@ li {
 
 #content2 {
     background: no-repeat url("../../img/bg2.png");
+    background-size: 100% 100%;
     z-index:200;
     width: 100%;
     height:1000px;
@@ -171,11 +172,12 @@ li {
 
 #content3 {
     background: no-repeat url("../../img/bg3.png");
+    background-size: 100% 100%;
     z-index:300;
     width: 100%;
     height:1000px;
     top:0px;
-    left: -2000px;
+    left: -3000px;
     position: fixed;
     transition: .5s;
 }
@@ -191,11 +193,12 @@ li {
 
 #content5 {
     background: no-repeat url("../../img/bg5.png");
+    background-size: 100% 100%;
     z-index:500;
     width: 100%;
     height:1000px;
     top:0px;
-    left: 2000px;
+    left: 3000px;
     position: fixed;
     transition: .5s;
 }
@@ -211,6 +214,7 @@ li {
 
 #vision1 {
     background: no-repeat url("../../img/vision_bg.jpg");
+    background-size: 100% 100%;
     z-index:100;
     width: 100%;
     height:1000px;
@@ -221,6 +225,7 @@ li {
 
 #vision2 {
     background: no-repeat url("../../img/vision_bg2.png");
+    background-size: 100% 100%;
     z-index:200;
     width: 100%;
     height:1000px;
@@ -245,6 +250,7 @@ li {
 
 #vision4 {
     background: no-repeat url("../../img/vision_bg3.png");
+    background-size: 100% 100%;
     z-index:200;
     width: 100%;
     height: 590px;
@@ -257,6 +263,7 @@ li {
 
 #service1 {
     background: no-repeat url("../../img/service_bg.png");
+    background-size: 100% 100%;
     z-index:100;
     width: 100%;
     height:1000px;
@@ -293,6 +300,7 @@ li {
 
 #news1 {
     background: no-repeat url("../../img/news_bg.png");
+    background-size: 100% 100%;
     z-index:100;
     width: 100%;
     height:603px;
@@ -314,6 +322,15 @@ li {
     margin-top: 30px;
 }
 
+#company {
+    position: fixed;
+    top:2950px;
+}
+
+#contact {
+    position: fixed;
+    top:2950px;
+}
 
 .content2_title, .content3_title, .content5_title, .vision1_title, .service1_title {
     width:100%;
@@ -492,6 +509,8 @@ li {
 .bg4 {
     top:-1500px;
     left:0px;
+    width: 100%;
+    height: 100%;
     position: fixed;
     z-index: 350;
     transition: .6s;
@@ -502,6 +521,8 @@ li {
 .bg6 {
     top:1500px;
     left:0px;
+    width: 100%;
+    height: 100%;
     position: fixed;
     z-index: 599;
     transition: .6s;

@@ -13,13 +13,14 @@ $(function () {
     head2_2_appear_px = 5200;
     console.log(scroll);
 
+
     //head表示・非表示(最低限)
     if (scroll < head_top_disappear_px) {
         $('#content1').css({top: '0px'});
         $('#content2').css({top: '1500px'});
-        $('#content3').css({left: '-2000px'});
+        $('#content3').css({left: '-3000px'});
         $('.bg4').css({top: '-1500px'});
-        $('#content5').css({left: '2000px'});
+        $('#content5').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
         $('.content2_all').addClass('none');
         $('.content2_title').removeClass('td6s');
@@ -32,9 +33,9 @@ $(function () {
     } else if (scroll < head1_appear_px) {
         $('#content1').css({top: '0px'});
         $('#content2').css({top: '0px'});
-        $('#content3').css({left: '-2000px'});
+        $('#content3').css({left: '-3000px'});
         $('.bg4').css({top: '-1500px'});
-        $('#content5').css({left: '2000px'});
+        $('#content5').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
         $('.content2_all').removeClass('none');
         $('.content2_title').addClass('td6s');
@@ -57,7 +58,7 @@ $(function () {
         $('#content2').css({top: '0px'});
         $('#content3').css({left: '0px'});
         $('.bg4').css({top: '-1500px'});
-        $('#content5').css({left: '2000px'});
+        $('#content5').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
         $('.content3_all').removeClass('none');
         $('.content3_title').addClass('td6s');
@@ -74,7 +75,7 @@ $(function () {
         $('#content2').css({top: '0px'});
         $('#content3').css({left: '0px'});
         $('.bg4').css({top: '0px'});
-        $('#content5').css({left: '2000px'});
+        $('#content5').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
         $('.content5_all').addClass('none');
         $('.content5_title').removeClass('td6s');
@@ -126,6 +127,14 @@ $(function () {
     }
     
     });
+
+    var hash = location.hash;
+    if (hash == '#company') {
+      window.scrollTo(0,2950);
+    } else if (hash == '#contact') {
+      window.scrollTo(0,5150);
+    }
+
 });
   
 function clickRegistButton() {
@@ -137,25 +146,25 @@ function clickEditButton() {
 }
   
 $(function(){
-  $('#company').click(function() {
+  $('#company_jump').click(function() {
     document.documentElement.scrollTop = 2950;
   });
 });
 
 $(function(){
-  $('#company2').click(function() {
+  $('#company_jump2').click(function() {
     document.documentElement.scrollTop = 2950;
   });
 });
 
 $(function(){
-  $('#contact').click(function() {
+  $('#contact_jump').click(function() {
     document.documentElement.scrollTop = 5150;
   });
 });
 
 $(function(){
-  $('#contact2').click(function() {
+  $('#contact_jump2').click(function() {
     document.documentElement.scrollTop = 5150;
   });
 });

@@ -59,7 +59,7 @@
 </div>
 <img src="../../img/bg4.png" class="bg4">
 <div id="content4">
-    
+    <div id="company"></div>
     <div class="content4_title">
         <div class="title_1">Company</div>
         <div class="title_2">会社概要</div>
