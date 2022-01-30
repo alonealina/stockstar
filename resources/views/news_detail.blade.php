@@ -47,7 +47,7 @@
 @endsection
 
 @section('footer_px')
-<nav class="footer_content" style="top:2000px;">
+<nav class="footer_content_news" style="top:700px;">
 @endsection
 
 @section('script')

@@ -57,9 +57,6 @@
 @endsection
 
 @section('footer_px')
-<nav class="footer_content" style="top:1700px;">
+<nav class="footer_content_news" style="top:700px;">
 @endsection
 
-@section('script')
-<script src="{{ asset('js/vision.js') }}"></script>
-@endsection

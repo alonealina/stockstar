@@ -68,18 +68,25 @@ li {
     display: flex;
 }
 
-.footer_content {
+.footer_content, .footer_content_news {
     width:100%;
     text-align:center;
     margin: 0 auto;
     height:170px;
     font: normal normal normal 19px/26px Noto Sans Oriya;
     color: #262626;
-    position: absolute;
     z-index: 9999;
     background: #F4F4F4 0% 0% no-repeat padding-box;
     display: flex;
     flex-wrap: wrap;
+}
+
+.footer_content {
+    position: absolute;
+}
+
+.footer_content_news {
+    position: relative;
 }
 
 .logo {
@@ -301,7 +308,7 @@ li {
     height:auto;
     top:603px;
     margin-left: 15%;
-    position: absolute;
+    position: relative;
     transition: .5s;
     display: flex;
     margin-top: 30px;
@@ -453,7 +460,7 @@ li {
 }
 
 
-.footer_content li {
+.footer_content li, .footer_content_news li {
     width: 90px;
     display: inline-block;
     margin:24px 60px 0 0;
@@ -645,6 +652,10 @@ li {
 
 a:hover, a:link, a:visited {
     color: inherit;
+}
+
+a:focus {
+    outline:0;
 }
 
 .form_text {
@@ -935,12 +946,11 @@ footer a:hover, header a:hover, .button_red a:hover {
     text-align: left;
     font: normal normal normal 16px/21px Hiragino Sans;
     letter-spacing: 0.91px;
-    min-height:1000px;
     border: 1px solid #E8E8E8;
 }
 
 .news_detail_text {
-    margin:30px 5% 0 5%;
+    margin:30px 5%;
 }
 
 .back_button {
