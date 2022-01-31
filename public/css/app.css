@@ -994,7 +994,7 @@ right:-100%;
 }
 
 .more_sp {
-    top: 30px;
+    top: 40px;
 }
 
 .send {
@@ -1020,7 +1020,7 @@ a:focus {
     border-radius: 13px;
     border: none;
     margin-top: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
 }
 
 .form_textarea {
