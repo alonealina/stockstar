@@ -9,17 +9,18 @@
     </div>
 </div>
 
+<nav class="service_list_bar service_list_bar_pc">
+    <ul>
+        <li class="service_system"><a>システム開発事業</a></li>
+        <li class="service_block"><a>ブロックチェーンサービス開発</a></li>
+        <li class="service_it"><a>ITコンサルティング</a></li>
+        <li class="service_esti"><a>資産運用のコンサルティング</a></li>
+        <li class="service_enter"><a>エンターテイメント</a></li>
+    </ul>
+</nav>
+
 <div id="service2">
 
-    <nav class="service_list_bar service_list_bar_pc">
-        <ul>
-            <li class="service_system"><a>システム開発事業</a></li>
-            <li class="service_block"><a>ブロックチェーンサービス開発</a></li>
-            <li class="service_it"><a>ITコンサルティング</a></li>
-            <li class="service_esti"><a>資産運用のコンサルティング</a></li>
-            <li class="service_enter"><a>エンターテイメント</a></li>
-        </ul>
-    </nav>
 
     <img src="../../img/logo.png" class="service_logo">
 

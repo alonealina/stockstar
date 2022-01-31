@@ -287,7 +287,7 @@ li {
     z-index:200;
     width: 100%;
     height:700px;
-    top:1000px;
+    top:1100px;
     position: absolute;
     transition: .5s;
     color: #6C6C6C;
@@ -776,9 +776,15 @@ footer a:hover, header a:hover, .button_red a:hover {
 }
 
 .service_list_bar {
-    margin-top: -90px;
-    padding-top: 120px;
+    margin-top: -60px;
+    padding-top: 100px;
     display: block;
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    z-index: 9998;
+    text-align: center;
+    top:1000px;
+    position: absolute;
 }
 
 .service_list_bar li {
@@ -793,7 +799,7 @@ footer a:hover, header a:hover, .button_red a:hover {
     border-radius: 26px;
     padding: 13px 16px 8px 25px;
     display: inline-block;
-    margin: 10px 5px 0 5px;
+    margin: 10px 5px;
 }
 
 .service_list_bar li a{
