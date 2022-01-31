@@ -332,6 +332,28 @@ right:-100%;
     transition: .5s;
 }
 
+#mail {
+    background: no-repeat url("../../img/bg6.png");
+    background-size: 100% 100%;
+    z-index:100;
+    width: 100%;
+    height:100%;
+    top:0px;
+    position: fixed;
+    transition: .5s;
+}
+
+#mail_sp {
+    background: no-repeat url("../../img/bg6_sp.png");
+    background-size: 100% 100%;
+    z-index:100;
+    width: 100%;
+    height:100%;
+    top:0px;
+    position: fixed;
+    transition: .5s;
+}
+
 #vision1 {
     background: no-repeat url("../../img/vision_bg.jpg");
     background-size: 100% 100%;
@@ -534,6 +556,37 @@ right:-100%;
     text-align: center;
     position: fixed;
     top:50%;
+    transition: .6s;
+}
+
+.mail_title {
+    width:100%;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    top:20%;
+    transition: .6s;
+}
+
+.mail_content {
+    width:100%;
+    font: normal normal normal 25px/43px Hiragino Sans;
+    letter-spacing: 1.75px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    top:40%;
+    transition: .6s;
+}
+
+.mail_content_sp {
+    width:100%;
+    font: normal normal normal 21px/36px Hiragino Sans;
+    letter-spacing: 1.47px;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    top:40%;
     transition: .6s;
 }
 
@@ -1010,8 +1063,8 @@ right:-100%;
 }
 
 .view_all .yazi, .google_map .yazi, .more .yazi, .send .yazi,
-.view_all_sp .yazi, .google_map_sp .yazi, .more_sp .yazi, .send_sp .yazi {
-    margin-top: -74px;
+.view_all_sp .yazi, .google_map_sp .yazi, .more_sp .yazi, .send_sp .yazi, .top .yazi, .top_sp .yazi  {
+    margin-top: -78px;
 }
 
 .view_all a {
@@ -1028,7 +1081,7 @@ right:-100%;
     letter-spacing: 1.54px;
 }
 
-.google_map, .more, .send, .google_map_sp, .more_sp {
+.google_map, .more, .send, .google_map_sp, .more_sp, .top, .top_sp {
     text-align: center;
     font: normal normal normal 20px/34px Hiragino Sans;
     letter-spacing: 1.4px;
@@ -1056,7 +1109,15 @@ right:-100%;
     top: 15px;
 }
 
-.google_map a, .more a, .send a, .google_map_sp a, .more_sp a {
+.top {
+    top:60%;
+}
+
+.top_sp {
+    top:70%;
+}
+
+.google_map a, .more a, .send a, .google_map_sp a, .more_sp a, .top a, .top_sp a {
     padding-top:6px;
 }
 
