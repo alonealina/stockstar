@@ -197,6 +197,8 @@
     <div class="content2_all_sp">
         <div class="content2_title_sp none">
             <div class="title_1_sp">Vision</div>
+            
+
             <div class="title_2_sp">ビジョン</div>
         </div>
         <div class="content2_text_sp none">

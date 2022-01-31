@@ -19,6 +19,11 @@
     #registration_sp {visibility : visible;}
 } */
 
+@font-face {
+	font-family: "TW";
+	src: url("../../BanglaMN-Bold-02.ttf");
+}
+
 #registration_pc {
 }
 
@@ -622,6 +627,7 @@ right:-100%;
 }
 
 .title_1 {
+    font-family: 'TW';
     font: normal normal bold 63px/95px Bangla MN;
     letter-spacing: 5.74px;
 }
@@ -647,12 +653,13 @@ right:-100%;
 }
 
 .title_1_sp {
+    font-family: 'TW';
     font: normal normal bold 35px/64px Bangla MN;
     letter-spacing: 2.45px;
 }
 
 .title_2_sp {
-    font: normal normal normal 14px/24px Hiragino Sans;
+    font: normal normal normal 14px/0px Hiragino Sans;
     letter-spacing: 0.98px;
 }
 
@@ -662,6 +669,7 @@ right:-100%;
 }
 
 .content2_text_2_sp {
+    font-family: 'TW';
     font: normal normal bold 24px/44px Bangla MN;
 }
 
@@ -1049,12 +1057,14 @@ a:focus {
 }
 
 .vision2_2 {
+    font-family: 'TW';
     font: normal normal bold 35px/73px Bangla MN;
     position: relative;
     top:200px;
 }
 
 .vision2_2_sp {
+    font-family: 'TW';
     font: normal normal bold 24px/44px Bangla MN;
     position: relative;
     top:200px;
@@ -1090,6 +1100,7 @@ a:focus {
 }
 
 .vision3_2 {
+    font-family: 'TW';
     font: normal normal bold 35px/73px Bangla MN;
     position: relative;
     color: #6C6C6C;
@@ -1097,6 +1108,7 @@ a:focus {
 }
 
 .vision3_2_sp {
+    font-family: 'TW';
     font: normal normal bold 24px/44px Bangla MN;
     position: relative;
     color: #6C6C6C;
