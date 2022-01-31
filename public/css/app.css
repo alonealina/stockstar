@@ -1510,7 +1510,7 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
     text-decoration: none;
     padding: 15px 0px;
     position: relative;
-    border-bottom: #707070 solid 1px;
+    border-bottom: #ffffff solid 1px;
   }
 
   #menu-btn-check:checked ~ .menu-content,
