@@ -44,19 +44,12 @@
         </body>
     </div>
 
-    <div id="registration_ipad">
-        <body>
-            <header class="mb-4">
-            </header>
-
-            <footer>
-            </footer>
-        </body>
-    </div>
-
     <div id="registration_sp">
         <body>
             <header class="mb-4">
+                <nav class="header_content">
+                    <a href="/" class="logo_a"><img src="../../img/logo.png" class="logo_sp"></a>
+                </nav>
             </header>
 
             <footer class="footer_sp">
@@ -76,12 +69,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
     @yield('script')
     <script type="text/javascript">
-    if ((navigator.userAgent.indexOf('iPhone') > 0 && navigator.userAgent.indexOf('iPad') == -1) 
+    if (navigator.userAgent.indexOf('iPhone') > 0 || navigator.userAgent.indexOf('iPad') > 0
         || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
         document.getElementById('registration_pc').style.display = "none";
-        document.getElementById('registration_ipad').style.display = "none";
         document.getElementById('registration_sp').style.visibility = "visible";
-    }  else {
+    } else {
         document.getElementById('registration_sp').style.display = "none";
     }
     </script>
