@@ -187,8 +187,8 @@
 @section('content_sp')
 
 <div id="content1">
-    <img src="../../img/Videotogif.gif" class="">
-    <div class="content1_logo">
+    <img src="../../img/Videotogif.gif" class="bg_movie_sp">
+    <div class="content1_logo_sp">
         <img src="../../img/logo_star.png" class="logo_star_sp">
         <img src="../../img/logo_text.png" class="logo_text_sp">
     </div>
