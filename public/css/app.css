@@ -1266,9 +1266,9 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #262626;
     border-radius: 26px;
-    padding: 13px 7px 10px 7px;
+    padding: 13px 6px 10px 6px;
     display: inline-block;
-    margin: 7px 0px;
+    margin: 7px -2px;
 }
 
 .service_list_bar_sp ul {

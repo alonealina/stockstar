@@ -87,7 +87,7 @@
                     <ul class="footer_ul_sp">
                         <li><a id="company_jump2_sp" href="/#company">Company</a></li>
                         <li><a class="{{ route('vision') }}" href="http://localhost:8000/vision">Vision</a></li>
-                        <li><a class="{{ route('service') }}" href="http://localhost:8000/service" target="_blank">Service</a></li>
+                        <li><a class="{{ route('service') }}" href="http://localhost:8000/service">Service</a></li>
                         <li><a class="{{ route('news') }}" href="http://localhost:8000/news">News</a></li>
                         <li><a id="contact_jump2_sp" href="/#contact">Contact</a></li>
                         <li></li>
