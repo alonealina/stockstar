@@ -62,10 +62,10 @@ $(function () {
         $('.content3_all').removeClass('none');
         $('.content3_title').addClass('td6s');
         $('.content3_title').removeClass('none');
-        $('.content3_title').css({top: '250px'});
+        $('.content3_title').css({top: '30%'});
         $('.services').addClass('td7s');
         $('.services').removeClass('none');
-        $('.services').css({top: '420px'});
+        $('.services').css({top: '45%'});
         $('.content4_title').removeClass('td6s');
         $('.content4_title').addClass('none');
         $('.content4_title').css({top: '367px'});
@@ -92,13 +92,13 @@ $(function () {
         $('.news_list').css({top: '404px'});
         $('.content4_title').addClass('td6s');
         $('.content4_title').removeClass('none');
-        $('.content4_title').css({top: '250px'});
+        $('.content4_title').css({top: '27%'});
         $('.company_detail').addClass('td7s');
         $('.company_detail').removeClass('none');
-        $('.company_detail').css({top: '300px'});
+        $('.company_detail').css({top: '32%'});
         $('.google_map').addClass('td7s');
         $('.google_map').removeClass('none');
-        $('.google_map').css({top: '340px'});
+        $('.google_map').css({top: '37%'});
         $('.content6_all').addClass('none');
         $('.content6_title').removeClass('td6s');
         $('.content6_title').addClass('none');
@@ -118,10 +118,10 @@ $(function () {
         $('.content5_all').removeClass('none');
         $('.content5_title').addClass('td6s');
         $('.content5_title').removeClass('none');
-        $('.content5_title').css({top: '150px'});
+        $('.content5_title').css({top: '25%'});
         $('.news_list').addClass('td7s');
         $('.news_list').removeClass('none');
-        $('.news_list').css({top: '270px'});
+        $('.news_list').css({top: '38%'});
         $('.content6_all').addClass('none');
         $('.content6_title').removeClass('td6s');
         $('.content6_title').addClass('none');
@@ -140,10 +140,10 @@ $(function () {
         $('.content6_all').removeClass('none');
         $('.content6_title').addClass('td6s');
         $('.content6_title').removeClass('none');
-        $('.content6_title').css({top: '300px'});
+        $('.content6_title').css({top: '40%'});
         $('.contact_form').addClass('td7s');
         $('.contact_form').removeClass('none');
-        $('.contact_form').css({top: '367px'});
+        $('.contact_form').css({top: '43%'});
 
     }
     
