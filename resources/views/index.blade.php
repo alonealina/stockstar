@@ -20,7 +20,7 @@
             <div class="content2_text_1">テクノロジーで顧客の未来を明るく照らす</div>
             <div class="content2_text_2">"Brighten the future of customers with technology."</div>
             <div class="content2_text_3">StockStarは全く新しい何かを発想する為に存在しています。</div>
-            <div class="button_red view_all">
+            <div class="button_red view_all" style="margin-top:-40px;">
                 <a href="{{ route('vision') }}">View all</a><img src="../../img/yazi.png" class="yazi">
             </div>
         </div>
