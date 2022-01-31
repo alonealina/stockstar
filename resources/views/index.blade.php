@@ -187,7 +187,7 @@
 @section('content_sp')
 
 <div id="content1">
-    <!-- <video src="../../img/bg_movie.mp4" autoplay loop muted playsinlin class="bg_movie"></video> -->
+    <img src="../../img/Videotogif.gif" class="">
     <div class="content1_logo">
         <img src="../../img/logo_star.png" class="logo_star_sp">
         <img src="../../img/logo_text.png" class="logo_text_sp">
