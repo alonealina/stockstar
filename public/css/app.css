@@ -427,7 +427,7 @@ li {
     color: #FFFFFF;
     text-align: center;
     position: fixed;
-    top:387px;
+    top:50%;
     transition: .6s;
 }
 
