@@ -50,6 +50,33 @@
 <nav class="footer_content_news" style="top:700px;">
 @endsection
 
-@section('script')
-<script src="{{ asset('js/vision.js') }}"></script>
+
+@section('content_sp')
+<div id="news1">
+    <div class="news1_title">
+        <div class="title_1_sp">News</div>
+        <div class="title_2_sp">ニュース</div>
+    </div>
+</div>
+
+<div id="news2_sp">
+
+    <div class="news_detail_sp">
+        <div class="news_line"></div>
+            <div class="news_detail_content">
+                <div class="news_detail_date">{{ $news['notice_date'] }}</div>
+                <div class="news_detail_title">{{ $news['title'] }}</div>
+                <div class="news_detail_text">{!! nl2br(e($news['content'])) !!}</div>
+            </div>
+        <div class="news_line"></div>
+        <a href="{{ route('news') }}"><img src="../../img/back_btn_sp.png" class="back_button_sp"></a>
+    </div>
+
+
+    
+</div>
+@endsection
+
+@section('footer_px_sp')
+<nav class="footer_content_news_sp" style="top:630px;">
 @endsection

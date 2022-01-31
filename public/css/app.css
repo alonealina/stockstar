@@ -93,7 +93,7 @@ li {
     position: absolute;
 }
 
-.footer_content_news {
+.footer_content_news, .footer_content_news_sp {
     position: relative;
 }
 
@@ -465,6 +465,17 @@ right:-100%;
     transition: .5s;
     display: flex;
     margin-top: 30px;
+}
+
+#news2_sp {
+    background: #fff 0% 0% no-repeat padding-box;
+    z-index:100;
+    width: 95%;
+    height:auto;
+    top:603px;
+    margin: 30px auto;
+    position: relative;
+    transition: .5s;
 }
 
 .content2_title, .content3_title, .content5_title, .vision1_title, .service1_title {
@@ -1238,12 +1249,23 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
 
 .news_list_index, .news_detail {
     width:67%;
-    margin-right: 3%;
-    
+    margin-right: 3%; 
+}
+
+.news_list_index_sp, .news_detail_sp {
+    width:100%;
 }
 
 .latest_news_list {
     width:30%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.latest_news_list_sp {
+    width:100%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 10px;
@@ -1257,6 +1279,10 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
 .news_line2 {
     border: 1px solid #EAEAEA;
     width:98%;
+}
+
+.news_line2_sp {
+    border: 3px solid #262626;
 }
 
 .all_news {
@@ -1285,6 +1311,13 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
 .latest_news_text {
     text-align: center;
     margin:25px auto;
+}
+
+.latest_news_text_sp {
+    text-align: center;
+    margin:25px auto;
+    font: normal normal normal 18px/31px Hiragino Sans;
+    letter-spacing: 1.26px;
 }
 
 .latest_news {
@@ -1353,6 +1386,11 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
 
 .back_button {
     margin-top: 20px;
+}
+
+.back_button_sp {
+    margin: 20px auto;
+    display: block;
 }
 
 .service2_system{
