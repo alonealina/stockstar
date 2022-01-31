@@ -122,6 +122,7 @@ $(function () {
         $('.news_list').addClass('td7s');
         $('.news_list').removeClass('none');
         $('.news_list').css({top: '38%'});
+        document.getElementById("content6").style.pointerEvents = "none";
         $('.content6_all').addClass('none');
         $('.content6_title').removeClass('td6s');
         $('.content6_title').addClass('none');
@@ -137,6 +138,7 @@ $(function () {
         $('#content4').css({top: '0px'});
         $('#content5').css({left: '0px'});
         $('.bg6').css({top: '0px'});
+        document.getElementById("content6").style.pointerEvents = "auto";
         $('.content6_all').removeClass('none');
         $('.content6_title').addClass('td6s');
         $('.content6_title').removeClass('none');
