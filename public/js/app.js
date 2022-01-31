@@ -40,14 +40,14 @@ $(function () {
         $('.content2_all').removeClass('none');
         $('.content2_title').addClass('td6s');
         $('.content2_title').removeClass('none');
-        $('.content2_title').css({top: '250px'});
+        $('.content2_title').css({top: '30%'});
         $('.content2_text').addClass('td7s');
         $('.content2_text').removeClass('none');
-        $('.content2_text').css({top: '420px'});
+        $('.content2_text').css({top: '45%'});
         $('.content3_all').addClass('none');
         $('.content3_title').removeClass('td6s');
         $('.content3_title').addClass('none');
-        $('.content3_title').css({top: '367px'});
+        $('.content3_title').css({top: '55%'});
         $('.services').removeClass('td7s');
         $('.services').addClass('none');
         $('.services').css({top: '594px'});
