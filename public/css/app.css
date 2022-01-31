@@ -21,7 +21,7 @@
 
 @font-face {
 	font-family: "TW";
-	src: url("../../BanglaMN-Bold-02.ttf");
+	src: url("../../font/BanglaMN-Bold-02.ttf");
 }
 
 #registration_pc {
@@ -697,8 +697,8 @@ right:-100%;
 }
 
 .title_1_sp {
-    font-family: 'TW';
-    font: normal normal bold 35px/64px Bangla MN;
+    font-family:'TW';
+    font: normal normal bold 35px/64px 'TW';
     letter-spacing: 2.45px;
     line-height:39px;
 }
@@ -716,7 +716,7 @@ right:-100%;
 
 .content2_text_2_sp {
     font-family: 'TW';
-    font: normal normal bold 24px/44px Bangla MN;
+    font: normal normal bold 24px/44px 'TW';
 }
 
 .content2_text_3_sp {
@@ -1111,7 +1111,7 @@ a:focus {
 
 .vision2_2_sp {
     font-family: 'TW';
-    font: normal normal bold 24px/44px Bangla MN;
+    font: normal normal bold 24px/44px 'TW';
     position: relative;
     top:200px;
 }
@@ -1155,7 +1155,7 @@ a:focus {
 
 .vision3_2_sp {
     font-family: 'TW';
-    font: normal normal bold 24px/44px Bangla MN;
+    font: normal normal bold 24px/44px 'TW';
     position: relative;
     color: #6C6C6C;
     top:180px;
