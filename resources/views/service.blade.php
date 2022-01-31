@@ -423,7 +423,7 @@
             の可能性を飛躍させることが出来ます。
             </div>
         </div>
-        <br><br>
+        <br><br><br>
         <img src="../../img/block1.png" class="service_img1_sp">
         <div class="service_div2_sp">
             <div class="service3_text3_sp td3s">
@@ -455,7 +455,7 @@
             「どうしたら良くなるのか？」を常に考え提供します。
             </div>
         </div>
-        <br><br>
+        <br><br><br>
         <img src="../../img/it1.png" class="service_img1_sp">
         <div class="service_div2_sp">
             <div class="service3_text3_sp td3s">
