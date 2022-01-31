@@ -66,8 +66,6 @@ $(function () {
         $('.services').addClass('td7s');
         $('.services').removeClass('none');
         $('.services').css({top: '420px'});
-        $('#content4').addClass('none');
-        $('#content4').removeClass('td3s');
         $('.content4_title').removeClass('td6s');
         $('.content4_title').addClass('none');
         $('.content4_title').css({top: '367px'});
@@ -92,8 +90,6 @@ $(function () {
         $('.news_list').removeClass('td7s');
         $('.news_list').addClass('none');
         $('.news_list').css({top: '404px'});
-        $('#content4').removeClass('none');
-        $('#content4').addClass('td3s');
         $('.content4_title').addClass('td6s');
         $('.content4_title').removeClass('none');
         $('.content4_title').css({top: '250px'});
