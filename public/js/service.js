@@ -158,7 +158,7 @@ buttonSystem.addEventListener("click", function () {
     itContent2.hidden = true;
     estiContent2.hidden = true;
     enterContent2.hidden = true;
-
+    window.scrollTo(0,1390);
 });
 
 buttonBlock.addEventListener("click", function () {
@@ -187,7 +187,7 @@ buttonBlock.addEventListener("click", function () {
     itContent2.hidden = true;
     estiContent2.hidden = true;
     enterContent2.hidden = true;
-
+    window.scrollTo(0,1390);
 });
 
 buttonIt.addEventListener("click", function () {
@@ -216,7 +216,7 @@ buttonIt.addEventListener("click", function () {
     itContent2.hidden = false;
     estiContent2.hidden = true;
     enterContent2.hidden = true;
-
+    window.scrollTo(0,1390);
 });
 
 buttonEsti.addEventListener("click", function () {
@@ -245,7 +245,7 @@ buttonEsti.addEventListener("click", function () {
     itContent2.hidden = true;
     estiContent2.hidden = false;
     enterContent2.hidden = true;
-
+    window.scrollTo(0,1390);
 });
 
 buttonEnter.addEventListener("click", function () {
@@ -274,5 +274,5 @@ buttonEnter.addEventListener("click", function () {
     itContent2.hidden = true;
     estiContent2.hidden = true;
     enterContent2.hidden = false;
-
+    window.scrollTo(0,1390);
 });
