@@ -483,7 +483,7 @@ right:-100%;
     z-index:200;
     width: 100%;
     height:1400px;
-    top:1750px;
+    top:1670px;
     position: absolute;
     transition: .5s;
     color: #6C6C6C;
@@ -700,11 +700,13 @@ right:-100%;
     font-family: 'TW';
     font: normal normal bold 35px/64px Bangla MN;
     letter-spacing: 2.45px;
+    line-height:39px;
 }
 
 .title_2_sp {
     font: normal normal normal 14px/0px Hiragino Sans;
     letter-spacing: 0.98px;
+    line-height:28px;
 }
 
 .content2_text_1_sp {
@@ -1254,7 +1256,7 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
 }
 
 .service_list_bar_sp li {
-    font: normal normal bold 8px/11px Noto Sans Oriya;
+    font: normal normal bold 10px/13px Noto Sans Oriya;
     letter-spacing: 0.56px;
     color: #262626;
     display: table-cell;
@@ -1263,9 +1265,9 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #262626;
     border-radius: 26px;
-    padding: 10px 2px 10px 2px;
+    padding: 13px 7px 10px 7px;
     display: inline-block;
-    margin: 10px 2px;
+    margin: 7px 0px;
 }
 
 .service_list_bar_sp ul {
@@ -1297,6 +1299,7 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
 .service2_content1_sp {
     font: normal normal normal 21px/36px Hiragino Sans;
     letter-spacing: 1.47px;
+    font-weight: 600;
 }
 
 .service2_content2 {
@@ -1340,7 +1343,7 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
 .service3_text1_sp, .service3_text3_sp {
     font: normal normal normal 26px/40px Hiragino Sans;
     letter-spacing: 2.1px;
-    margin-top:70px;
+    margin-top:60px;
     width:100%;
     text-align: center;
 }
