@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\StockstarController@index')->name('index');
+Route::post('mail_send', 'App\Http\Controllers\StockstarController@mail_send')->name('mail_send');
+
 Route::get('news', 'App\Http\Controllers\StockstarController@news')->name('news');
 Route::get('news/{id}', 'App\Http\Controllers\StockstarController@news_detail')->name('news.detail');
 

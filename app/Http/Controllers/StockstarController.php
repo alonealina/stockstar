@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Validator;
 use App\Models\News;
 use App\Models\Adminuser;
 use DB;
+use Mail;
 
 class StockstarController extends Controller
 {
@@ -19,6 +20,21 @@ class StockstarController extends Controller
             'news' => $news,
         ]);
     }
+
+    public function mail_send(Request $request)
+    {
+
+    	$data = ['name' => $request->name,
+                'mail' => $request->mail,
+                'tel' => $request->tel,
+                'content' => $request->content,];
+
+    	Mail::send('mail', $data, function($message){
+    	    $message->to('info@stock-star.net', 'Test')->subject('お問い合わせ通知');
+    	});
+        return redirect()->to('mail');
+    }
+
 
     public function news()
     {

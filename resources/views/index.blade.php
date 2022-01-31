@@ -157,7 +157,8 @@
         <div class="title_1">Contact</div>
         <div class="title_2">お問い合わせ</div>
     </div>
-    <form class="contact_form">
+    <form class="contact_form" name="mail_form" action="{{ route('mail_send') }}" method="post" enctype="multipart/form-data">
+        @csrf
         お名前                    
         <input class="form_text" placeholder="" name="name" type="text">
         返信用メールアドレス                    
@@ -165,9 +166,9 @@
         電話番号                    
         <input class="form_text" placeholder="" name="tel" type="text">
         お問い合わせ内容                    
-        <input class="form_textarea" placeholder="" name="content" type="textarea">
+        {{ Form::textarea('content', old('content'), ['class' => 'form_textarea', 'rows' => 10, 'maxlength' => 3000]) }}
         <div class="button_red send">
-            <a href="">Send</a><img src="../../img/yazi.png" class="yazi">
+            <a href="#" onclick="clickMailButton()">Send</a><img src="../../img/yazi.png" class="yazi">
         </div>
     </form>
 </div>

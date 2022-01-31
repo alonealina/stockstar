@@ -158,6 +158,10 @@ $(function () {
 
 });
   
+function clickMailButton() {
+  document.forms.mail_form.submit();
+}
+
 function clickRegistButton() {
   document.forms.regist_form.submit();
 }
