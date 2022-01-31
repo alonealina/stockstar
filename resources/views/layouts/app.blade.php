@@ -81,10 +81,19 @@
 
             @yield('content_sp')
 
-            <footer class="footer_sp">
-                <a href="#page_top">ページTOPへ</a>
-                <div class="copyright_sp">Copyright ©︎ 2022 StockStar.inc. All right.</div>
-                <div class="footer_black_sp"></div>
+            <footer>
+                <nav class="footer_content_sp" style="top:5500px;">
+                    <img src="../../img/logo.png" class="logo_footer_sp">
+                    <ul class="footer_ul_sp">
+                        <li><a id="company_jump2" href="/#company">Company</a></li>
+                        <li><a class="" href="http://localhost:8000/vision">Vision</a></li>
+                        <li><a class="" href="http://localhost:8000/service" target="_blank">Service</a></li>
+                        <li><a class="" href="http://localhost:8000/news">News</a></li>
+                        <li><a id="contact_jump2" href="/#contact">Contact</a></li>
+                        <li></li>
+                    </ul>
+                    <div class="copyright_sp">Copyright ©︎ 2022 StockStar.inc. All right.</div>
+                </nav>
             </footer>
         </body>
     </div>

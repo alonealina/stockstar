@@ -226,32 +226,31 @@
 
     </div>
 </div>
-<!-- 
 
-<img src="../../img/bg4.png" class="bg4">
+
 <div id="content4_sp">
     <div id="company"></div>
-    <div class="content4_title">
+    <div class="content4_title_sp">
         <div class="title_1_sp">Company</div>
         <div class="title_2_sp">会社概要</div>
     </div>
-    <div class="company_detail">
+    <div class="company_detail_sp">
         <div class="content4_line"></div>
         <div class="company_column1">
-            <div class="detail_title">名称</div>
-            <div class="detail_content">株式会社StockStar　（株式会社ストックスター）</div>
+            <div class="detail_title_sp">名称</div>
+            <div class="detail_content_sp">株式会社StockStar　（株式会社ストックスター）</div>
         </div>
         <div class="company_column1">
-            <div class="detail_title">代表者</div>
-            <div class="detail_content">代表取締役CEO　小林 宏至</div>
+            <div class="detail_title_sp">代表者</div>
+            <div class="detail_content_sp">代表取締役CEO　小林 宏至</div>
         </div>
         <div class="company_column1">
-            <div class="detail_title">設立</div>
-            <div class="detail_content">2020年10月1日</div>
+            <div class="detail_title_sp">設立</div>
+            <div class="detail_content_sp">2020年10月1日</div>
         </div>
         <div class="company_column2">
-            <div class="detail_title mt38">事業内容</div>
-            <div class="detail_content">
+            <div class="detail_title_sp mt38">事業内容</div>
+            <div class="detail_content_sp">
                 １）システム開発<br>
                 ２）ブロックチェーンサービス開発<br>
                 ３）ITコンサルティング<br>
@@ -260,61 +259,62 @@
             </div>
         </div>
         <div class="company_column1">
-            <div class="detail_title mt10">東京本社</div>
-            <div class="detail_content">〒107-0062 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
+            <div class="detail_title_sp mt10">東京本社</div>
+            <div class="detail_content_sp">〒107-0062 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
         </div>
         <div class="content4_line"></div>
     </div>
-    <div class="button_red google_map">
+    <div class="button_red google_map_sp">
         <a href="https://goo.gl/maps/fQkxoL6mP3Qd8weT6">Google map</a><img src="../../img/yazi.png" class="yazi">
     </div>
-
 </div>
 
+
 <div id="content5_sp">
-    <div class="content5_all">
-        <div class="content5_title none">
+    <div class="content5_all_sp">
+        <div class="content5_title_sp none">
             <div class="title_1_sp">News</div>
             <div class="title_2_sp">お知らせ</div>
         </div>
     </div>
 
-    <div class="news_list none">
-        <div class="content5_line"></div>
-        <div class="news_column">
-            <div class="news_date">{{ isset($news[0]['notice_date']) ? $news[0]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[0]['title']) ? $news[0]['title'] : null }}</div>
+    <div class="news_list_sp none">
+        <div class="content5_line_sp"></div>
+        <div class="news_column_sp">
+            <div class="news_date_sp">{{ isset($news[0]['notice_date']) ? $news[0]['notice_date'] : null }}</div>
+            <div class="news_content_sp">{{ isset($news[0]['title']) ? $news[0]['title'] : null }}</div>
         </div>
-        <div class="news_column">
-            <div class="news_date">{{ isset($news[1]['notice_date']) ? $news[1]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[1]['title']) ? $news[1]['title'] : null }}</div>
+        <div class="news_column_sp">
+            <div class="news_date_sp">{{ isset($news[1]['notice_date']) ? $news[1]['notice_date'] : null }}</div>
+            <div class="news_content_sp">{{ isset($news[1]['title']) ? $news[1]['title'] : null }}</div>
         </div>
-        <div class="news_column">
-            <div class="news_date">{{ isset($news[2]['notice_date']) ? $news[2]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[2]['title']) ? $news[2]['title'] : null }}</div>
+        <div class="news_column_sp">
+            <div class="news_date_sp">{{ isset($news[2]['notice_date']) ? $news[2]['notice_date'] : null }}</div>
+            <div class="news_content_sp">{{ isset($news[2]['title']) ? $news[2]['title'] : null }}</div>
         </div>
-        <div class="news_column">
-            <div class="news_date">{{ isset($news[3]['notice_date']) ? $news[3]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[3]['title']) ? $news[3]['title'] : null }}</div>
+        <div class="news_column_sp">
+            <div class="news_date_sp">{{ isset($news[3]['notice_date']) ? $news[3]['notice_date'] : null }}</div>
+            <div class="news_content_sp">{{ isset($news[3]['title']) ? $news[3]['title'] : null }}</div>
         </div>
-        <div class="news_column">
-            <div class="news_date">{{ isset($news[4]['notice_date']) ? $news[4]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[4]['title']) ? $news[4]['title'] : null }}</div>
+        <div class="news_column_sp">
+            <div class="news_date_sp">{{ isset($news[4]['notice_date']) ? $news[4]['notice_date'] : null }}</div>
+            <div class="news_content_sp">{{ isset($news[4]['title']) ? $news[4]['title'] : null }}</div>
         </div>
-        <div class="content5_line2"></div>
-        <div class="button_red more">
+        <div class="content5_line2_sp"></div>
+        <div class="button_red more_sp">
             <a href="{{ route('news') }}">More</a><img src="../../img/yazi.png" class="yazi">
         </div>
     </div>
 </div>
 
-<img src="../../img/bg6.png" class="bg6">
+<img src="../../img/bg6_sp.png" class="bg6">
 <div id="content6">
-    <div class="content6_title none">
+    <div class="content6_title_sp none">
         <div class="title_1_sp">Contact</div>
         <div class="title_2_sp">お問い合わせ</div>
     </div>
-    <form class="contact_form">
+    
+    <form class="contact_form_sp none">
         お名前                    
         <input class="form_text" placeholder="" name="name" type="text">
         返信用メールアドレス                    
@@ -327,6 +327,6 @@
             <a href="">Send</a><img src="../../img/yazi.png" class="yazi">
         </div>
     </form>
-</div> -->
+</div>
 
 @endsection
