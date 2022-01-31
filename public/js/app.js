@@ -8,9 +8,9 @@ $(function () {
     head_top_disappear_px = 300;
     head1_appear_px = 1500;
     head1_disappear_px = 2500;
-    head2_1_appear_px = 4000;
-    head2_1_disappear_px = 5000;
-    head2_2_appear_px = 5200;
+    head2_1_appear_px = 3500;
+    head2_1_disappear_px = 4500;
+    head2_2_appear_px = 4700;
     console.log(scroll);
 
 
@@ -19,7 +19,7 @@ $(function () {
         $('#content1').css({top: '0px'});
         $('#content2').css({top: '1500px'});
         $('#content3').css({left: '-3000px'});
-        $('.bg4').css({top: '-1500px'});
+        $('#content4').css({top: '-1500px'});
         $('#content5').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
         $('.content2_all').addClass('none');
@@ -34,7 +34,7 @@ $(function () {
         $('#content1').css({top: '0px'});
         $('#content2').css({top: '0px'});
         $('#content3').css({left: '-3000px'});
-        $('.bg4').css({top: '-1500px'});
+        $('#content4').css({top: '-1500px'});
         $('#content5').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
         $('.content2_all').removeClass('none');
@@ -52,12 +52,11 @@ $(function () {
         $('.services').addClass('none');
         $('.services').css({top: '594px'});
 
-
     } else if (scroll < head1_disappear_px) {
         $('#content1').css({top: '0px'});
         $('#content2').css({top: '0px'});
         $('#content3').css({left: '0px'});
-        $('.bg4').css({top: '-1500px'});
+        $('#content4').css({top: '-1500px'});
         $('#content5').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
         $('.content3_all').removeClass('none');
@@ -69,12 +68,21 @@ $(function () {
         $('.services').css({top: '420px'});
         $('#content4').addClass('none');
         $('#content4').removeClass('td3s');
+        $('.content4_title').removeClass('td6s');
+        $('.content4_title').addClass('none');
+        $('.content4_title').css({top: '367px'});
+        $('.company_detail').removeClass('td7s');
+        $('.company_detail').addClass('none');
+        $('.company_detail').css({top: '420px'});
+        $('.google_map').removeClass('td7s');
+        $('.google_map').addClass('none');
+        $('.google_map').css({top: '460px'});
 
     } else if (scroll < head2_1_appear_px) {
         $('#content1').css({top: '0px'});
         $('#content2').css({top: '0px'});
         $('#content3').css({left: '0px'});
-        $('.bg4').css({top: '0px'});
+        $('#content4').css({top: '0px'});
         $('#content5').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
         $('.content5_all').addClass('none');
@@ -86,12 +94,29 @@ $(function () {
         $('.news_list').css({top: '404px'});
         $('#content4').removeClass('none');
         $('#content4').addClass('td3s');
+        $('.content4_title').addClass('td6s');
+        $('.content4_title').removeClass('none');
+        $('.content4_title').css({top: '250px'});
+        $('.company_detail').addClass('td7s');
+        $('.company_detail').removeClass('none');
+        $('.company_detail').css({top: '300px'});
+        $('.google_map').addClass('td7s');
+        $('.google_map').removeClass('none');
+        $('.google_map').css({top: '340px'});
+        $('.content6_all').addClass('none');
+        $('.content6_title').removeClass('td6s');
+        $('.content6_title').addClass('none');
+        $('.content6_title').css({top: '400px'});
+        $('.contact_form').removeClass('td7s');
+        $('.contact_form').addClass('none');
+        $('.contact_form').css({top: '467px'});
+
 
     } else if (scroll < head2_1_disappear_px) {
         $('#content1').css({top: '0px'});
         $('#content2').css({top: '0px'});
         $('#content3').css({left: '0px'});
-        $('.bg4').css({top: '0px'});
+        $('#content4').css({top: '0px'});
         $('#content5').css({left: '0px'});
         $('.bg6').css({top: '1500px'});
         $('.content5_all').removeClass('none');
@@ -109,11 +134,11 @@ $(function () {
         $('.contact_form').addClass('none');
         $('.contact_form').css({top: '467px'});
 
-    } else if (scroll < head2_2_appear_px) {
+    } else {
         $('#content1').css({top: '0px'});
         $('#content2').css({top: '0px'});
         $('#content3').css({left: '0px'});
-        $('.bg4').css({top: '0px'});
+        $('#content4').css({top: '0px'});
         $('#content5').css({left: '0px'});
         $('.bg6').css({top: '0px'});
         $('.content6_all').removeClass('none');
@@ -159,13 +184,13 @@ $(function(){
 
 $(function(){
   $('#contact_jump').click(function() {
-    document.documentElement.scrollTop = 5150;
+    document.documentElement.scrollTop = 4650;
   });
 });
 
 $(function(){
   $('#contact_jump2').click(function() {
-    document.documentElement.scrollTop = 5150;
+    document.documentElement.scrollTop = 4650;
   });
 });
   

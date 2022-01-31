@@ -8,9 +8,9 @@ $(function () {
     head_top_disappear_px = 300;
     head1_appear_px = 1500;
     head1_disappear_px = 2500;
-    head2_1_appear_px = 4000;
-    head2_1_disappear_px = 5000;
-    head2_2_appear_px = 5200;
+    head2_1_appear_px = 3500;
+    head2_1_disappear_px = 4500;
+    head2_2_appear_px = 4700;
     console.log(scroll);
 
 
@@ -44,13 +44,13 @@ $(function () {
         $('.content2_text_sp').addClass('td7s');
         $('.content2_text_sp').removeClass('none');
         $('.content2_text_sp').css({top: '340px'});
-        $('.content3_all').addClass('none');
-        $('.content3_title').removeClass('td6s');
-        $('.content3_title').addClass('none');
-        $('.content3_title').css({top: '367px'});
-        $('.services').removeClass('td7s');
-        $('.services').addClass('none');
-        $('.services').css({top: '594px'});
+        $('.content3_all_sp').addClass('none');
+        $('.content3_title_sp').removeClass('td6s');
+        $('.content3_title_sp').addClass('none');
+        $('.content3_title_sp').css({top: '367px'});
+        $('.services_sp').removeClass('td7s');
+        $('.services_sp').addClass('none');
+        $('.services_sp').css({top: '594px'});
 
 
     } else if (scroll < head1_disappear_px) {
@@ -60,13 +60,13 @@ $(function () {
         $('.bg4').css({top: '-1500px'});
         $('#content5_sp').css({left: '3000px'});
         $('.bg6').css({top: '1500px'});
-        $('.content3_all').removeClass('none');
-        $('.content3_title').addClass('td6s');
-        $('.content3_title').removeClass('none');
-        $('.content3_title').css({top: '250px'});
-        $('.services').addClass('td7s');
-        $('.services').removeClass('none');
-        $('.services').css({top: '420px'});
+        $('.content3_all_sp').removeClass('none');
+        $('.content3_title_sp').addClass('td6s');
+        $('.content3_title_sp').removeClass('none');
+        $('.content3_title_sp').css({top: '250px'});
+        $('.services_sp').addClass('td7s');
+        $('.services_sp').removeClass('none');
+        $('.services_sp').css({top: '420px'});
         $('#content4_sp').addClass('none');
         $('#content4_sp').removeClass('td3s');
 
@@ -159,13 +159,13 @@ $(function(){
 
 $(function(){
   $('#contact_jump').click(function() {
-    document.documentElement.scrollTop = 5150;
+    document.documentElement.scrollTop = 4650;
   });
 });
 
 $(function(){
   $('#contact_jump2').click(function() {
-    document.documentElement.scrollTop = 5150;
+    document.documentElement.scrollTop = 4650;
   });
 });
   

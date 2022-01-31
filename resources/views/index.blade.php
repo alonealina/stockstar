@@ -57,7 +57,6 @@
 
     </div>
 </div>
-<img src="../../img/bg4.png" class="bg4">
 <div id="content4">
     <div id="company"></div>
     <div class="content4_title">
@@ -87,10 +86,6 @@
                 ４）資産運用のコンサルティング<br>
                 ５）エンターテイメント
             </div>
-        </div>
-        <div class="company_column1">
-            <div class="detail_title">資本金</div>
-            <div class="detail_content">100万円</div>
         </div>
         <div class="company_column1">
             <div class="detail_title mt10">東京本社</div>
@@ -165,7 +160,7 @@
 @endsection
 
 @section('footer_px')
-<nav class="footer_content" style="top:6350px;">
+<nav class="footer_content" style="top:5650px;">
 @endsection
 
 @section('script')
@@ -199,15 +194,14 @@
         </div>
     </div>
 </div>
-<!-- 
 
-<div id="content3">
-    <div class="content3_all">
-        <div class="content3_title none">
+<div id="content3_sp">
+    <div class="content3_all_sp">
+        <div class="content3_title_sp none">
             <div class="title_1_sp">Service</div>
             <div class="title_2_sp">事業案内</div>
         </div>
-        <ul class="services none">
+        <ul class="services_sp none">
             <a class="" href="{{ route('service') }}#system"><li>
                 <img src="../../img/service1.png" class="service_img">
                 システム開発事業
@@ -232,8 +226,10 @@
 
     </div>
 </div>
+<!-- 
+
 <img src="../../img/bg4.png" class="bg4">
-<div id="content4">
+<div id="content4_sp">
     <div id="company"></div>
     <div class="content4_title">
         <div class="title_1_sp">Company</div>
@@ -264,10 +260,6 @@
             </div>
         </div>
         <div class="company_column1">
-            <div class="detail_title">資本金</div>
-            <div class="detail_content">100万円</div>
-        </div>
-        <div class="company_column1">
             <div class="detail_title mt10">東京本社</div>
             <div class="detail_content">〒107-0062 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
         </div>
@@ -279,7 +271,7 @@
 
 </div>
 
-<div id="content5">
+<div id="content5_sp">
     <div class="content5_all">
         <div class="content5_title none">
             <div class="title_1_sp">News</div>
