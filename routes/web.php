@@ -8,6 +8,10 @@ Route::post('mail_send', 'App\Http\Controllers\StockstarController@mail_send')->
 Route::get('news', 'App\Http\Controllers\StockstarController@news')->name('news');
 Route::get('news/{id}', 'App\Http\Controllers\StockstarController@news_detail')->name('news.detail');
 
+Route::get('mail_comp', function () {
+    return view('mail_comp');
+})->name('mail_comp');
+
 Route::get('vision', function () {
     return view('vision');
 })->name('vision');

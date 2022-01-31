@@ -149,14 +149,10 @@ $(function () {
 
 });
   
-function clickRegistButton() {
-  document.forms.regist_form.submit();
+function clickMailButtonSp() {
+  document.forms.mail_form_sp.submit();
 }
 
-function clickEditButton() {
-  document.forms.edit_form.submit();
-}
-  
 $(function(){
   $('#company_jump_sp').click(function() {
     document.documentElement.scrollTop = 2950;

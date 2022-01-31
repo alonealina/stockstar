@@ -32,7 +32,7 @@ class StockstarController extends Controller
     	Mail::send('mail', $data, function($message){
     	    $message->to('info@stock-star.net', 'Test')->subject('お問い合わせ通知');
     	});
-        return redirect()->to('mail');
+        return redirect()->to('mail_comp');
     }
 
 
