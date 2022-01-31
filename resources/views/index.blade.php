@@ -220,23 +220,23 @@
             <div class="title_2_sp">事業案内</div>
         </div>
         <ul class="services_sp none">
-            <a class="" href="{{ route('service') }}#system"><li>
+            <a class="" href="{{ route('service') }}#system_sp"><li>
                 <img src="../../img/service1.png" class="service_img">
                 <div class="service_name_sp">システム開発事業</div>
             </li></a>
-            <a class="" href="{{ route('service') }}#block"><li>
+            <a class="" href="{{ route('service') }}#block_sp"><li>
                 <img src="../../img/service2.png" class="service_img">
                 ブロックチェーン<br>サービス開発
             </li></a>
-            <a class="" href="{{ route('service') }}#it"><li>
+            <a class="" href="{{ route('service') }}#it_sp"><li>
                 <img src="../../img/service3.png" class="service_img">
                 <div class="service_name_sp">ITコンサルティング</div>
             </li></a>
-            <a class="" href="{{ route('service') }}#esti"><li>
+            <a class="" href="{{ route('service') }}#esti_sp"><li>
                 <img src="../../img/service4.png" class="service_img">
                 資産運用の<br>コンサルティング
             </li></a>
-            <a class="" href="{{ route('service') }}#enter"><li>
+            <a class="" href="{{ route('service') }}#enter_sp"><li>
                 <img src="../../img/service5.png" class="service_img">
                 <div class="service_name_sp">エンターテイメント</div>
             </li></a>

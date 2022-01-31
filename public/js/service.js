@@ -77,7 +77,7 @@ $(function () {
             systemTitle.classList.remove("none");
             systemContent.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,1390);
         systemContent2.hidden = false;
 
     } else if (hash == '#block') {
@@ -87,7 +87,7 @@ $(function () {
             blockTitle.classList.remove("none");
             blockContent.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,1390);
         blockContent2.hidden = false;
 
     } else if (hash == '#it') {
@@ -97,7 +97,7 @@ $(function () {
             itTitle.classList.remove("none");
             itContent.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,1390);
         itContent2.hidden = false;
 
     } else if (hash == '#esti') {
@@ -107,7 +107,7 @@ $(function () {
             estiTitle.classList.remove("none");
             estiContent.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,1390);
         estiContent2.hidden = false;
 
     } else if (hash == '#enter') {
@@ -117,7 +117,7 @@ $(function () {
             enterTitle.classList.remove("none");
             enterContent.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,1390);
         enterContent2.hidden = false;
 
     } else {
