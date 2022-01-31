@@ -70,54 +70,54 @@ $(function () {
 
     var hash = location.hash;
     
-    if (hash == '#system') {
+    if (hash == '#system_sp') {
         buttonSystemSp.classList.add("current");
         serviceSystemSp.hidden = false;
         setTimeout(function(){
             systemTitleSp.classList.remove("none");
             systemContentSp.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,880);
         systemContentSp2.hidden = false;
 
-    } else if (hash == '#block') {
+    } else if (hash == '#block_sp') {
         buttonBlockSp.classList.add("current");
         serviceBlockSp.hidden = false;
         setTimeout(function(){
             blockTitleSp.classList.remove("none");
             blockContentSp.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,880);
         blockContentSp2.hidden = false;
 
-    } else if (hash == '#it') {
+    } else if (hash == '#it_sp') {
         buttonItSp.classList.add("current");
         serviceItSp.hidden = false;
         setTimeout(function(){
             itTitleSp.classList.remove("none");
             itContentSp.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,880);
         itContentSp2.hidden = false;
 
-    } else if (hash == '#esti') {
+    } else if (hash == '#esti_sp') {
         buttonEstiSp.classList.add("current");
         serviceEstiSp.hidden = false;
         setTimeout(function(){
             estiTitleSp.classList.remove("none");
             estiContentSp.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,880);
         estiContentSp2.hidden = false;
 
-    } else if (hash == '#enter') {
+    } else if (hash == '#enter_sp') {
         buttonEnterSp.classList.add("current");
         serviceEnterSp.hidden = false;
         setTimeout(function(){
             enterTitleSp.classList.remove("none");
             enterContentSp.classList.remove("none");
         },1000);
-        window.scrollTo(0,950);
+        window.scrollTo(0,880);
         enterContentSp2.hidden = false;
 
     } else {
