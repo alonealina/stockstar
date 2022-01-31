@@ -287,7 +287,7 @@ li {
     z-index:200;
     width: 100%;
     height:1000px;
-    top:1000px;
+    top:1200px;
     position: absolute;
     transition: .5s;
     color: #FFFFFF;
@@ -385,7 +385,7 @@ li {
     color: #FFFFFF;
     text-align: center;
     position: fixed;
-    top:367px;
+    top:427px;
     transition: .6s;
 }
 
