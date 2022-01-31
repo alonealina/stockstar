@@ -1,16 +1,16 @@
 /* iPad・スマホへの振り分け */
 
 /* 表示領域が1200px以上の場合に適用するスタイル（パソコン向け） */
-@media screen and (min-width: 851px) {
+/* @media screen and (min-width: 851px) {
     #registration_pc {visibility : visible;}
     #registration_ipad {display : none;}
-}	
+}	 */
 
 /* 表示領域が1190px以下の場合に適用するスタイル（スマホ向け） */
-@media screen and (max-width: 850px) {
+/* @media screen and (max-width: 850px) {
     #registration_pc {display : none;}
     #registration_ipad {visibility : visible;}
-}
+} */
 
 /* 表示領域が1190px以下の場合に適用するスタイル（スマホ向け） */
 /* @media screen and (max-width: 400px) {
@@ -20,10 +20,6 @@
 } */
 
 #registration_pc {
-}
-
-#registration_ipad {
-    min-width:768px;
 }
 
 #registration_sp {
