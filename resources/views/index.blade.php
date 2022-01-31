@@ -110,25 +110,40 @@
     <div class="news_list none">
         <div class="content5_line"></div>
         <div class="news_column">
-            <div class="news_date">{{ isset($news[0]['notice_date']) ? $news[0]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[0]['title']) ? $news[0]['title'] : null }}</div>
+            <a href="{{ route('news.detail', ['id' => $news[0]['id']]) }}" class="news_a">
+                <div class="news_date">{{ isset($news[0]['notice_date']) ? $news[0]['notice_date'] : null }}</div>
+                <div class="news_content">{{ isset($news[0]['title']) ? $news[0]['title'] : null }}</div>
+            </a>
         </div>
+
         <div class="news_column">
-            <div class="news_date">{{ isset($news[1]['notice_date']) ? $news[1]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[1]['title']) ? $news[1]['title'] : null }}</div>
+            <a href="{{ route('news.detail', ['id' => $news[1]['id']]) }}" class="news_a">
+                <div class="news_date">{{ isset($news[1]['notice_date']) ? $news[1]['notice_date'] : null }}</div>
+                <div class="news_content">{{ isset($news[1]['title']) ? $news[1]['title'] : null }}</div>
+            </a>
         </div>
+
         <div class="news_column">
-            <div class="news_date">{{ isset($news[2]['notice_date']) ? $news[2]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[2]['title']) ? $news[2]['title'] : null }}</div>
+            <a href="{{ route('news.detail', ['id' => $news[2]['id']]) }}" class="news_a">
+                <div class="news_date">{{ isset($news[2]['notice_date']) ? $news[2]['notice_date'] : null }}</div>
+                <div class="news_content">{{ isset($news[2]['title']) ? $news[2]['title'] : null }}</div>
+            </a>
         </div>
+
         <div class="news_column">
-            <div class="news_date">{{ isset($news[3]['notice_date']) ? $news[3]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[3]['title']) ? $news[3]['title'] : null }}</div>
+            <a href="{{ route('news.detail', ['id' => $news[3]['id']]) }}" class="news_a">
+                <div class="news_date">{{ isset($news[3]['notice_date']) ? $news[3]['notice_date'] : null }}</div>
+                <div class="news_content">{{ isset($news[3]['title']) ? $news[3]['title'] : null }}</div>
+            </a>
         </div>
+
         <div class="news_column">
-            <div class="news_date">{{ isset($news[4]['notice_date']) ? $news[4]['notice_date'] : null }}</div>
-            <div class="news_content">{{ isset($news[4]['title']) ? $news[4]['title'] : null }}</div>
+            <a href="{{ route('news.detail', ['id' => $news[4]['id']]) }}" class="news_a">
+                <div class="news_date">{{ isset($news[4]['notice_date']) ? $news[4]['notice_date'] : null }}</div>
+                <div class="news_content">{{ isset($news[4]['title']) ? $news[4]['title'] : null }}</div>
+            </a>
         </div>
+
         <div class="content5_line2"></div>
         <div class="button_red more">
             <a href="{{ route('news') }}">More</a><img src="../../img/yazi.png" class="yazi">
@@ -172,7 +187,7 @@
 @section('content_sp')
 
 <div id="content1">
-    <!-- <video src="../../img/bg_movie.mp4" autoplay loop muted playsinlin class="bg_movie"></video> -->
+    <img src="../../img/Videotogif.gif" class="">
     <div class="content1_logo">
         <img src="../../img/logo_star.png" class="logo_star_sp">
         <img src="../../img/logo_text.png" class="logo_text_sp">
@@ -204,23 +219,23 @@
         <ul class="services_sp none">
             <a class="" href="{{ route('service') }}#system"><li>
                 <img src="../../img/service1.png" class="service_img">
-                システム開発事業
+                <div class="service_name_sp">システム開発事業</div>
             </li></a>
             <a class="" href="{{ route('service') }}#block"><li>
                 <img src="../../img/service2.png" class="service_img">
-                ブロックチェーンサービス開発
+                ブロックチェーン<br>サービス開発
             </li></a>
             <a class="" href="{{ route('service') }}#it"><li>
                 <img src="../../img/service3.png" class="service_img">
-                ITコンサルティング
+                <div class="service_name_sp">ITコンサルティング</div>
             </li></a>
             <a class="" href="{{ route('service') }}#esti"><li>
                 <img src="../../img/service4.png" class="service_img">
-                資産運用のコンサルティング
+                資産運用の<br>コンサルティング
             </li></a>
             <a class="" href="{{ route('service') }}#enter"><li>
                 <img src="../../img/service5.png" class="service_img">
-                エンターテイメント
+                <div class="service_name_sp">エンターテイメント</div>
             </li></a>
         </ul>
 
