@@ -144,6 +144,12 @@ li {
     height: 63px;
 }
 
+.service_logo_sp {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 175px;
+}
+
 .bg_movie {
     transform: translateZ(0);
     z-index: 0;
@@ -423,6 +429,17 @@ right:-100%;
     transition: .5s;
 }
 
+#service1_sp {
+    background: no-repeat url("../../img/service_bg_sp.png");
+    background-size: 100% 100%;
+    z-index:100;
+    width: 100%;
+    height:100%;
+    top:0px;
+    position: fixed;
+    transition: .5s;
+}
+
 #service2 {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     z-index:200;
@@ -435,12 +452,38 @@ right:-100%;
     text-align: center;
 }
 
+#service2_sp {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    z-index:200;
+    width: 100%;
+    height:700px;
+    top:1050px;
+    position: absolute;
+    transition: .5s;
+    color: #6C6C6C;
+    text-align: center;
+}
+
 #service3 {
     background: #F8F8F8 0% 0% no-repeat padding-box;
     z-index:200;
     width: 100%;
     height:1400px;
     top:2100px;
+    position: absolute;
+    transition: .5s;
+    color: #6C6C6C;
+    text-align: left;
+    font: normal normal normal 16px/28px Hiragino Sans;
+    letter-spacing: 1.4px;
+}
+
+#service3_sp {
+    background: #F8F8F8 0% 0% no-repeat padding-box;
+    z-index:200;
+    width: 100%;
+    height:1400px;
+    top:1750px;
     position: absolute;
     transition: .5s;
     color: #6C6C6C;
@@ -1183,6 +1226,18 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
     position: absolute;
 }
 
+.service_list_bar_sp {
+    margin-top: -60px;
+    padding-top: 10px;
+    display: block;
+    width: 100%;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    z-index: 9998;
+    text-align: center;
+    top:1000px;
+    position: absolute;
+}
+
 .service_list_bar li {
     font: normal normal normal 15px/18px Noto Sans Oriya;
     letter-spacing: 1.19px;
@@ -1198,15 +1253,34 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
     margin: 10px 5px;
 }
 
-.service_list_bar li a{
+.service_list_bar_sp li {
+    font: normal normal bold 8px/11px Noto Sans Oriya;
+    letter-spacing: 0.56px;
+    color: #262626;
+    display: table-cell;
+    min-width: 50px;
+    cursor: pointer;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #262626;
+    border-radius: 26px;
+    padding: 10px 2px 10px 2px;
+    display: inline-block;
+    margin: 10px 2px;
+}
+
+.service_list_bar_sp ul {
+    padding-inline-start: 0px
+}
+
+.service_list_bar li a, .service_list_bar_sp li a{
     opacity: 1;
 }
 
-.service_list_bar li.current {
+.service_list_bar li.current, .service_list_bar_sp li.current {
     background: #EBEBEB 0% 0% no-repeat padding-box;
 }
 
-.service_list_bar li.current a {
+.service_list_bar li.current a, .service_list_bar_sp li.current a {
     opacity: 0.5;
 }
 
@@ -1220,15 +1294,30 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
     letter-spacing: 2.8px;
 }
 
+.service2_content1_sp {
+    font: normal normal normal 21px/36px Hiragino Sans;
+    letter-spacing: 1.47px;
+}
+
 .service2_content2 {
     margin-top: 20px;
     font: normal normal normal 16px/25px Hiragino Sans;
     letter-spacing: 1.4px;
 }
 
+.service2_content2_sp {
+    margin-top: 20px;
+    font: normal normal normal 16px/32px Hiragino Sans;
+}
+
+
 .service_div1, .service_div2, .service_img1, .service_img2 {
     width:50%;
     height:655px;
+}
+
+.service_div1_sp, .service_div2_sp, .service_img1_sp, .service_img2_sp {
+    width:100%;
 }
 
 .service_img1 {
@@ -1248,9 +1337,24 @@ footer a:hover, header a:hover, .button_red a:hover, .news_a:hover {
     width:570px;
 }
 
+.service3_text1_sp, .service3_text3_sp {
+    font: normal normal normal 26px/40px Hiragino Sans;
+    letter-spacing: 2.1px;
+    margin-top:70px;
+    width:100%;
+    text-align: center;
+}
+
 .service3_text2, .service3_text4 {
     margin-top:50px;
     width:570px;
+}
+
+.service3_text2_sp, .service3_text4_sp {
+    font: normal normal normal 16px/32px Hiragino Sans;
+    margin-top:30px;
+    width:100%;
+    text-align: center;
 }
 
 .service3_text1, .service3_text2 {
