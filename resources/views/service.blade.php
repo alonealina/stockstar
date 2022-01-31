@@ -292,9 +292,8 @@
 
 <div id="service2_sp">
 
-<br>
     <img src="../../img/logo.png" class="service_logo_sp">
-    <br><br>
+    <br><br><br>
     <div class="service2_system_sp" hidden>
         <div class="service2_title system_title_sp none">
             <div class="title_1_sp">System Development</div>
