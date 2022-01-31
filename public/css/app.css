@@ -377,7 +377,7 @@ li {
     z-index:200;
     width: 100%;
     height:700px;
-    top:1100px;
+    top:1500px;
     position: absolute;
     transition: .5s;
     color: #6C6C6C;
@@ -388,8 +388,8 @@ li {
     background: #F8F8F8 0% 0% no-repeat padding-box;
     z-index:200;
     width: 100%;
-    height:1310px;
-    top:1700px;
+    height:1400px;
+    top:2100px;
     position: absolute;
     transition: .5s;
     color: #6C6C6C;

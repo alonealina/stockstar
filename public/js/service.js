@@ -35,7 +35,7 @@ $(function () {
         //head表示・非表示開始px
         head_top_disappear_px = 1050;
         head1_appear_px = 1700;
-        sidebar_fixed_px = 970;
+        sidebar_fixed_px = 1390;
 
         //head表示・非表示(最低限)
         if (scroll < head_top_disappear_px) {
@@ -59,7 +59,7 @@ $(function () {
         //sidebarのfixed
         if (scroll < sidebar_fixed_px) {
             $('.service_list_bar').css({position: 'absolute'});
-            $('.service_list_bar').css({top: '1000px'});
+            $('.service_list_bar').css({top: '1400px'});
         } else {
             $('.service_list_bar').css({position: 'fixed'});
             $('.service_list_bar').css({top: '30px'});
