@@ -115,6 +115,7 @@ $(function () {
         $('.news_list_sp').addClass('td7s');
         $('.news_list_sp').removeClass('none');
         $('.news_list_sp').css({top: '31%'});
+        document.getElementById("content6_sp").style.pointerEvents = "none";
         $('.content6_title_sp').removeClass('td6s');
         $('.content6_title_sp').addClass('none');
         $('.content6_title_sp').css({top: '330px'});
@@ -129,6 +130,7 @@ $(function () {
         $('#content4_sp').css({top: '0px'});
         $('#content5_sp').css({left: '0px'});
         $('.bg6').css({top: '0px'});
+        document.getElementById("content6_sp").style.pointerEvents = "auto";
         $('.content6_title_sp').addClass('td6s');
         $('.content6_title_sp').removeClass('none');
         $('.content6_title_sp').css({top: '26%'});

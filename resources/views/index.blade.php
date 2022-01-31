@@ -298,26 +298,40 @@
 
     <div class="news_list_sp none">
         <div class="content5_line_sp"></div>
-        <div class="news_column_sp">
-            <div class="news_date_sp">{{ isset($news[0]['notice_date']) ? $news[0]['notice_date'] : null }}</div>
-            <div class="news_content_sp">{{ isset($news[0]['title']) ? $news[0]['title'] : null }}</div>
-        </div>
-        <div class="news_column_sp">
-            <div class="news_date_sp">{{ isset($news[1]['notice_date']) ? $news[1]['notice_date'] : null }}</div>
-            <div class="news_content_sp">{{ isset($news[1]['title']) ? $news[1]['title'] : null }}</div>
-        </div>
-        <div class="news_column_sp">
-            <div class="news_date_sp">{{ isset($news[2]['notice_date']) ? $news[2]['notice_date'] : null }}</div>
-            <div class="news_content_sp">{{ isset($news[2]['title']) ? $news[2]['title'] : null }}</div>
-        </div>
-        <div class="news_column_sp">
-            <div class="news_date_sp">{{ isset($news[3]['notice_date']) ? $news[3]['notice_date'] : null }}</div>
-            <div class="news_content_sp">{{ isset($news[3]['title']) ? $news[3]['title'] : null }}</div>
-        </div>
-        <div class="news_column_sp">
-            <div class="news_date_sp">{{ isset($news[4]['notice_date']) ? $news[4]['notice_date'] : null }}</div>
-            <div class="news_content_sp">{{ isset($news[4]['title']) ? $news[4]['title'] : null }}</div>
-        </div>
+        <a href="{{ isset($news[0]['id']) ? route('news.detail', ['id' => $news[0]['id']]) : null }}" class="">
+            <div class="news_column_sp">
+                <div class="news_date_sp">{{ isset($news[0]['notice_date']) ? $news[0]['notice_date'] : null }}</div>
+                <div class="news_content_sp">{{ isset($news[0]['title']) ? $news[0]['title'] : null }}</div>
+            </div>
+        </a>
+
+        <a href="{{ isset($news[1]['id']) ? route('news.detail', ['id' => $news[1]['id']]) : null }}" class="">
+            <div class="news_column_sp">
+                <div class="news_date_sp">{{ isset($news[1]['notice_date']) ? $news[1]['notice_date'] : null }}</div>
+                <div class="news_content_sp">{{ isset($news[1]['title']) ? $news[1]['title'] : null }}</div>
+            </div>
+        </a>
+
+        <a href="{{ isset($news[2]['id']) ? route('news.detail', ['id' => $news[2]['id']]) : null }}" class="">
+            <div class="news_column_sp">
+                <div class="news_date_sp">{{ isset($news[2]['notice_date']) ? $news[2]['notice_date'] : null }}</div>
+                <div class="news_content_sp">{{ isset($news[2]['title']) ? $news[2]['title'] : null }}</div>
+            </div>
+        </a>
+
+        <a href="{{ isset($news[3]['id']) ? route('news.detail', ['id' => $news[3]['id']]) : null }}" class="">
+            <div class="news_column_sp">
+                <div class="news_date_sp">{{ isset($news[3]['notice_date']) ? $news[3]['notice_date'] : null }}</div>
+                <div class="news_content_sp">{{ isset($news[3]['title']) ? $news[3]['title'] : null }}</div>
+            </div>
+        </a>
+
+        <a href="{{ isset($news[4]['id']) ? route('news.detail', ['id' => $news[4]['id']]) : null }}" class="">
+            <div class="news_column_sp">
+                <div class="news_date_sp">{{ isset($news[4]['notice_date']) ? $news[4]['notice_date'] : null }}</div>
+                <div class="news_content_sp">{{ isset($news[4]['title']) ? $news[4]['title'] : null }}</div>
+            </div>
+        </a>
         <div class="content5_line2_sp"></div>
         <div class="button_red more_sp">
             <a href="{{ route('news') }}">More</a><img src="../../img/yazi.png" class="yazi">
@@ -326,7 +340,7 @@
 </div>
 
 <img src="../../img/bg6_sp.png" class="bg6">
-<div id="content6">
+<div id="content6_sp">
     <div class="content6_title_sp none">
         <div class="title_1_sp">Contact</div>
         <div class="title_2_sp">お問い合わせ</div>
