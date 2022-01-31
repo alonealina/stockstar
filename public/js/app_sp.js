@@ -40,10 +40,10 @@ $(function () {
         $('.content2_all_sp').removeClass('none');
         $('.content2_title_sp').addClass('td6s');
         $('.content2_title_sp').removeClass('none');
-        $('.content2_title_sp').css({top: '200px'});
+        $('.content2_title_sp').css({top: '25%'});
         $('.content2_text_sp').addClass('td7s');
         $('.content2_text_sp').removeClass('none');
-        $('.content2_text_sp').css({top: '340px'});
+        $('.content2_text_sp').css({top: '43%'});
         $('.content3_all_sp').addClass('none');
         $('.content3_title_sp').removeClass('td6s');
         $('.content3_title_sp').addClass('none');
@@ -63,10 +63,10 @@ $(function () {
         $('.content3_all_sp').removeClass('none');
         $('.content3_title_sp').addClass('td6s');
         $('.content3_title_sp').removeClass('none');
-        $('.content3_title_sp').css({top: '200px'});
+        $('.content3_title_sp').css({top: '25%'});
         $('.services_sp').addClass('td7s');
         $('.services_sp').removeClass('none');
-        $('.services_sp').css({top: '315px'});
+        $('.services_sp').css({top: '40%'});
         $('.content4_title_sp').removeClass('td6s');
         $('.content4_title_sp').addClass('none');
         $('.content4_title_sp').css({top: '230px'});
@@ -93,13 +93,13 @@ $(function () {
         $('.news_list_sp').css({top: '300px'});
         $('.content4_title_sp').addClass('td6s');
         $('.content4_title_sp').removeClass('none');
-        $('.content4_title_sp').css({top: '110px'});
+        $('.content4_title_sp').css({top: '19%'});
         $('.company_detail_sp').addClass('td7s');
         $('.company_detail_sp').removeClass('none');
-        $('.company_detail_sp').css({top: '150px'});
+        $('.company_detail_sp').css({top: '22%'});
         $('.google_map_sp').addClass('td7s');
         $('.google_map_sp').removeClass('none');
-        $('.google_map_sp').css({top: '180px'});
+        $('.google_map_sp').css({top: '27%'});
 
     } else if (scroll < head2_1_disappear_px) {
         $('#content1_sp').css({top: '0px'});
@@ -111,10 +111,10 @@ $(function () {
         $('.content5_all_sp').removeClass('none');
         $('.content5_title_sp').addClass('td6s');
         $('.content5_title_sp').removeClass('none');
-        $('.content5_title_sp').css({top: '100px'});
+        $('.content5_title_sp').css({top: '19%'});
         $('.news_list_sp').addClass('td7s');
         $('.news_list_sp').removeClass('none');
-        $('.news_list_sp').css({top: '200px'});
+        $('.news_list_sp').css({top: '31%'});
         $('.content6_title_sp').removeClass('td6s');
         $('.content6_title_sp').addClass('none');
         $('.content6_title_sp').css({top: '330px'});
@@ -131,10 +131,10 @@ $(function () {
         $('.bg6').css({top: '0px'});
         $('.content6_title_sp').addClass('td6s');
         $('.content6_title_sp').removeClass('none');
-        $('.content6_title_sp').css({top: '230px'});
+        $('.content6_title_sp').css({top: '26%'});
         $('.contact_form_sp').addClass('td7s');
         $('.contact_form_sp').removeClass('none');
-        $('.contact_form_sp').css({top: '255px'});
+        $('.contact_form_sp').css({top: '27%'});
 
     }
     
