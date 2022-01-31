@@ -110,35 +110,35 @@
     <div class="news_list none">
         <div class="content5_line"></div>
         <div class="news_column">
-            <a href="{{ route('news.detail', ['id' => $news[0]['id']]) }}" class="news_a">
+            <a href="{{ isset($news[0]['id']) ? route('news.detail', ['id' => $news[0]['id']]) : null }}" class="news_a">
                 <div class="news_date">{{ isset($news[0]['notice_date']) ? $news[0]['notice_date'] : null }}</div>
                 <div class="news_content">{{ isset($news[0]['title']) ? $news[0]['title'] : null }}</div>
             </a>
         </div>
 
         <div class="news_column">
-            <a href="{{ route('news.detail', ['id' => $news[1]['id']]) }}" class="news_a">
+            <a href="{{ isset($news[1]['id']) ? route('news.detail', ['id' => $news[1]['id']]) : null }}" class="news_a">
                 <div class="news_date">{{ isset($news[1]['notice_date']) ? $news[1]['notice_date'] : null }}</div>
                 <div class="news_content">{{ isset($news[1]['title']) ? $news[1]['title'] : null }}</div>
             </a>
         </div>
 
         <div class="news_column">
-            <a href="{{ route('news.detail', ['id' => $news[2]['id']]) }}" class="news_a">
+            <a href="{{ isset($news[2]['id']) ? route('news.detail', ['id' => $news[2]['id']]) : null }}" class="news_a">
                 <div class="news_date">{{ isset($news[2]['notice_date']) ? $news[2]['notice_date'] : null }}</div>
                 <div class="news_content">{{ isset($news[2]['title']) ? $news[2]['title'] : null }}</div>
             </a>
         </div>
 
         <div class="news_column">
-            <a href="{{ route('news.detail', ['id' => $news[3]['id']]) }}" class="news_a">
+            <a href="{{ isset($news[3]['id']) ? route('news.detail', ['id' => $news[3]['id']]) : null }}" class="news_a">
                 <div class="news_date">{{ isset($news[3]['notice_date']) ? $news[3]['notice_date'] : null }}</div>
                 <div class="news_content">{{ isset($news[3]['title']) ? $news[3]['title'] : null }}</div>
             </a>
         </div>
 
         <div class="news_column">
-            <a href="{{ route('news.detail', ['id' => $news[4]['id']]) }}" class="news_a">
+            <a href="{{ isset($news[4]['id']) ? route('news.detail', ['id' => $news[4]['id']]) : null }}" class="news_a">
                 <div class="news_date">{{ isset($news[4]['notice_date']) ? $news[4]['notice_date'] : null }}</div>
                 <div class="news_content">{{ isset($news[4]['title']) ? $news[4]['title'] : null }}</div>
             </a>
