@@ -90,6 +90,7 @@
                         <li><a class="" href="http://localhost:8000/service" target="_blank">Service</a></li>
                         <li><a class="" href="http://localhost:8000/news">News</a></li>
                         <li><a id="contact_jump2" href="/#contact">Contact</a></li>
+                        <li></li>
                     </ul>
                     <div class="copyright_sp">Copyright ©︎ 2022 StockStar.inc. All right.</div>
                 </nav>
