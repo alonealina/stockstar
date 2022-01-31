@@ -158,25 +158,25 @@ function clickEditButton() {
 }
   
 $(function(){
-  $('#company_jump').click(function() {
+  $('#company_jump_sp').click(function() {
     document.documentElement.scrollTop = 2950;
   });
 });
 
 $(function(){
-  $('#company_jump2').click(function() {
+  $('#company_jump2_sp').click(function() {
     document.documentElement.scrollTop = 2950;
   });
 });
 
 $(function(){
-  $('#contact_jump').click(function() {
+  $('#contact_jump_sp').click(function() {
     document.documentElement.scrollTop = 4650;
   });
 });
 
 $(function(){
-  $('#contact_jump2').click(function() {
+  $('#contact_jump2_sp').click(function() {
     document.documentElement.scrollTop = 4650;
   });
 });
