@@ -127,7 +127,8 @@ li {
 .logo_footer {
     margin-top: 35px;
     margin-left: 280px;
-    width: 230px;
+    /* width: 250px; */
+    height: 35%;
 }
 
 .logo_footer_sp {
