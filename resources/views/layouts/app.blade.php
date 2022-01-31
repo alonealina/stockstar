@@ -57,19 +57,19 @@
                     <div class="menu-content">
                         <ul>
                             <li>
-                            <a href ="" class="humberger_menu">Company</a>
+                            <a id="company_jump_sp" href ="/#company" class="humberger_menu">Company</a>
                             </li>
                             <li>
-                            <a href ="" class="humberger_menu">Vision</a>
+                            <a href ="{{ route('vision') }}" class="humberger_menu">Vision</a>
                             </li>
                             <li>
-                            <a href ="" class="humberger_menu">Service</a>
+                            <a href ="{{ route('service') }}" class="humberger_menu">Service</a>
                             </li>
                             <li>
-                            <a href ="" class="humberger_menu">News</a>
+                            <a href ="{{ route('news') }}" class="humberger_menu">News</a>
                             </li>
                             <li>
-                            <a href ="" class="humberger_menu">Contact</a>
+                            <a id="contact_jump_sp" href ="/#contact" class="humberger_menu">Contact</a>
                             </li>
                         </ul>
                     
@@ -82,14 +82,14 @@
             @yield('content_sp')
 
             <footer>
-                <nav class="footer_content_sp" style="top:5500px;">
+                @yield('footer_px_sp')
                     <img src="../../img/logo.png" class="logo_footer_sp">
                     <ul class="footer_ul_sp">
-                        <li><a id="company_jump2" href="/#company">Company</a></li>
-                        <li><a class="" href="http://localhost:8000/vision">Vision</a></li>
-                        <li><a class="" href="http://localhost:8000/service" target="_blank">Service</a></li>
-                        <li><a class="" href="http://localhost:8000/news">News</a></li>
-                        <li><a id="contact_jump2" href="/#contact">Contact</a></li>
+                        <li><a id="company_jump2_sp" href="/#company">Company</a></li>
+                        <li><a class="{{ route('vision') }}" href="http://localhost:8000/vision">Vision</a></li>
+                        <li><a class="{{ route('service') }}" href="http://localhost:8000/service" target="_blank">Service</a></li>
+                        <li><a class="{{ route('news') }}" href="http://localhost:8000/news">News</a></li>
+                        <li><a id="contact_jump2_sp" href="/#contact">Contact</a></li>
                         <li></li>
                     </ul>
                     <div class="copyright_sp">Copyright ©︎ 2022 StockStar.inc. All right.</div>

@@ -264,3 +264,16 @@
 @section('script')
 <script src="{{ asset('js/service.js') }}"></script>
 @endsection
+
+
+
+
+
+@section('content_sp')
+
+
+@endsection
+
+@section('footer_px_sp')
+<nav class="footer_content_sp" style="top:5500px;">
+@endsection

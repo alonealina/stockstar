@@ -331,8 +331,32 @@ right:-100%;
     transition: .5s;
 }
 
+#vision1_sp {
+    background: no-repeat url("../../img/vision_bg_sp.png");
+    background-size: 100% 100%;
+    z-index:100;
+    width: 100%;
+    height:100%;
+    top:0px;
+    position: fixed;
+    transition: .5s;
+}
+
 #vision2 {
     background: no-repeat url("../../img/vision_bg2.png");
+    background-size: 100% 100%;
+    z-index:200;
+    width: 100%;
+    height:1000px;
+    top:1400px;
+    position: absolute;
+    transition: .5s;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#vision2_sp {
+    background: no-repeat url("../../img/vision_bg2_sp.png");
     background-size: 100% 100%;
     z-index:200;
     width: 100%;
@@ -352,12 +376,25 @@ right:-100%;
     top:2100px;
     position: absolute;
     transition: .5s;
-    color: #FFFFFF;
+    color: #6C6C6C;
     text-align: center;
 }
 
 #vision4 {
     background: no-repeat url("../../img/vision_bg3.png");
+    background-size: 100% 100%;
+    z-index:200;
+    width: 100%;
+    height: 590px;
+    top:2770px;
+    position: absolute;
+    transition: .5s;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#vision4_sp {
+    background: no-repeat url("../../img/vision_bg3_sp.png");
     background-size: 100% 100%;
     z-index:200;
     width: 100%;
@@ -992,8 +1029,21 @@ a:focus {
     top:200px;
 }
 
+.vision2_1_sp {
+    font: normal normal normal 16px/27px Hiragino Sans;
+    letter-spacing: 1.12px;
+    position: relative;
+    top:200px;
+}
+
 .vision2_2 {
     font: normal normal bold 35px/73px Bangla MN;
+    position: relative;
+    top:200px;
+}
+
+.vision2_2_sp {
+    font: normal normal bold 24px/44px Bangla MN;
     position: relative;
     top:200px;
 }
@@ -1001,6 +1051,12 @@ a:focus {
 .vision2_3, .vision2_4, .vision2_5, .vision2_6 {
     font: normal normal normal 16px/34px Hiragino Sans;
     letter-spacing: 1.4px;
+    position: relative;
+    top:240px;
+}
+
+.vision2_3_sp, .vision2_4_sp, .vision2_5_sp, .vision2_6_sp {
+    font: normal normal normal 15px/30px Hiragino Sans;
     position: relative;
     top:240px;
 }
@@ -1013,8 +1069,23 @@ a:focus {
     top:180px;
 }
 
+.vision3_1_sp {
+    font: normal normal normal 16px/27px Hiragino Sans;
+    letter-spacing: 1.12px;
+    position: relative;
+    color: #6C6C6C;
+    top:180px;
+}
+
 .vision3_2 {
     font: normal normal bold 35px/73px Bangla MN;
+    position: relative;
+    color: #6C6C6C;
+    top:180px;
+}
+
+.vision3_2_sp {
+    font: normal normal bold 24px/44px Bangla MN;
     position: relative;
     color: #6C6C6C;
     top:180px;
@@ -1023,6 +1094,13 @@ a:focus {
 .vision3_3, .vision3_4, .vision3_5, .vision3_6 {
     font: normal normal normal 16px/34px Hiragino Sans;
     letter-spacing: 1.4px;
+    position: relative;
+    color: #262626;
+    top:210px;
+}
+
+.vision3_3_sp, .vision3_4_sp, .vision3_5_sp, .vision3_6_sp {
+    font: normal normal normal 15px/34px Hiragino Sans;
     position: relative;
     color: #262626;
     top:210px;
