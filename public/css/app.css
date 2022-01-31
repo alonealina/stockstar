@@ -28,7 +28,7 @@
 
 #registration_sp {
     min-width: 375px;
-    overflow-x: hidden;
+    height:4000px;
 }
 
 body {
@@ -103,6 +103,12 @@ li {
 
 .logo_a {
     width:100%;
+    z-index: 100;
+}
+
+.logo_div_sp {
+    margin: 0 auto;
+    z-index: 100;
 }
 
 .logo_footer {
@@ -159,8 +165,24 @@ li {
     display: block;
 }
 
+.logo_star_sp {
+    width:75px;
+    z-index: 150;
+    position: relative;
+    margin: auto;
+    display: block;
+}
+
+.logo_text_sp {
+    width:150px;
+    z-index: 150;
+    position: relative;
+    margin: 10px auto;
+    display: block;
+}
+
 #content1 {
-    background-color: white;
+    background-color: black;
     z-index:100;
     width: 100%;
     height:100%;
@@ -171,6 +193,17 @@ li {
 
 #content2 {
     background: no-repeat url("../../img/bg2.png");
+    background-size: 100% 100%;
+    z-index:200;
+    width: 100%;
+    height:100%;
+    top:1500px;
+    position: fixed;
+    transition: .5s;
+}
+
+#content2_sp {
+    background: no-repeat url("../../img/bg2_sp.png");
     background-size: 100% 100%;
     z-index:200;
     width: 100%;
@@ -341,6 +374,15 @@ li {
     transition: .6s;
 }
 
+.content2_title_sp, .content3_title_sp, .content5_title_sp, .vision1_title_sp, .service1_title_sp {
+    width:100%;
+    color: #FFFFFF;
+    text-align: center;
+    position: fixed;
+    top:300px;
+    transition: .6s;
+}
+
 .news1_title {
     width:100%;
     color: #FFFFFF;
@@ -411,6 +453,16 @@ li {
     
 }
 
+.content2_text_sp {
+    width:100%;
+    color: #FFFFFF;
+    text-align: center;
+    z-index:150;
+    position: fixed;
+    top:450px;
+    
+}
+
 .services {
     width:100%;
     text-align: center;
@@ -453,6 +505,30 @@ li {
 .content2_text_3 {
     font: normal normal normal 20px/32px Hiragino Sans;
     letter-spacing: 1.4px;
+}
+
+.title_1_sp {
+    font: normal normal bold 35px/64px Bangla MN;
+    letter-spacing: 2.45px;
+}
+
+.title_2_sp {
+    font: normal normal normal 14px/24px Hiragino Sans;
+    letter-spacing: 0.98px;
+}
+
+.content2_text_1_sp {
+    font: normal normal normal 16px/27px Hiragino Sans;
+    letter-spacing: 1.12px;
+}
+
+.content2_text_2_sp {
+    font: normal normal bold 24px/44px Bangla MN;
+}
+
+.content2_text_3_sp {
+    font: normal normal normal 16px/27px Hiragino Sans;
+    letter-spacing: 1.12px;
 }
 
 .header_ul {
@@ -636,12 +712,20 @@ li {
     margin-left: 250px;
 }
 
-.view_all .yazi, .google_map .yazi, .more .yazi, .send .yazi {
-    margin-top: -80px;
+.view_all .yazi, .google_map .yazi, .more .yazi, .send .yazi,
+.view_all_sp .yazi, .google_map_sp .yazi, .more_sp .yazi, .send_sp .yazi {
+    margin-top: -74px;
 }
 
 .view_all a {
     margin-top: 90px;
+    padding-top:5px;
+    font: normal normal normal 20px/34px Hiragino Sans;
+    letter-spacing: 1.54px;
+}
+
+.view_all_sp a {
+    margin-top: 50px;
     padding-top:5px;
     font: normal normal normal 20px/34px Hiragino Sans;
     letter-spacing: 1.54px;
@@ -1001,4 +1085,100 @@ footer a:hover, header a:hover, .button_red a:hover {
 
 .service2_enter{
     margin-top: 50px;
+}
+
+
+/*以下ハンバーガーメニューについて*/
+
+.menu-btn {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    border: 0.5px solid #DEDEDE;
+  }
+  .menu-btn span,
+  .menu-btn span:before,
+  .menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 20px;
+    border-radius: 3px;
+    background-color: #262626;
+    position: absolute;
+  }
+  .menu-btn span:before {
+    bottom: 8px;
+  }
+  .menu-btn span:after {
+    top: 8px;
+  }
+  
+  #menu-btn-check:checked ~ .menu-btn span,
+  #menu-btn-check_ipad:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+  }
+  #menu-btn-check:checked ~ .menu-btn span::before,
+  #menu-btn-check_ipad:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+  }
+  #menu-btn-check:checked ~ .menu-btn span::after,
+  #menu-btn-check_ipad:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+  }
+  
+  #menu-btn-check, #menu-btn-check_ipad {
+    display: none;
+  }
+  
+  
+  .menu-content, .menu-content_ipad {
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 100%;/*leftの値を変更してメニューを画面外へ*/
+    z-index: 80;
+    transition: all 0.5s;/*アニメーション設定*/
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+  }
+  
+  .menu-content ul,
+  .menu-content_ipad ul {
+    padding: 60px 10px 0;
+  }
+  .menu-content ul li {
+    display: block;
+    list-style: none;
+  }
+  .menu-content ul li a {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font: normal normal normal 20px/28px Noto Sans Oriya;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px #00000072;
+    text-decoration: none;
+    padding: 15px 0px;
+    position: relative;
+    border-bottom: #707070 solid 1px;
+  }
+
+  #menu-btn-check:checked ~ .menu-content,
+  #menu-btn-check_ipad:checked ~ .menu-content_ipad {
+    left: 30%;/*メニューを画面内へ*/
+  }
+  
+.humberger_menu {
+    float:left;
+    text-align: left;
 }

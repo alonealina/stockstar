@@ -48,13 +48,42 @@
         <body>
             <header class="mb-4">
                 <nav class="header_content">
-                    <a href="/" class="logo_a"><img src="../../img/logo.png" class="logo_sp"></a>
+                    <div class="logo_div_sp">
+                        <a href="/" class="logo_a"><img src="../../img/logo.png" class="logo_sp"></a>
+                    </div>
+                    <div class="hamburger-menu">
+                    <input type="checkbox" id="menu-btn-check">
+                    <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                    <div class="menu-content">
+                        <ul>
+                            <li>
+                            <a href ="" class="humberger_menu">Company</a>
+                            </li>
+                            <li>
+                            <a href ="" class="humberger_menu">Vision</a>
+                            </li>
+                            <li>
+                            <a href ="" class="humberger_menu">Service</a>
+                            </li>
+                            <li>
+                            <a href ="" class="humberger_menu">News</a>
+                            </li>
+                            <li>
+                            <a href ="" class="humberger_menu">Contact</a>
+                            </li>
+                        </ul>
+                    
+                    </div>
+                </div>
+
                 </nav>
             </header>
 
+            @yield('content_sp')
+
             <footer class="footer_sp">
                 <a href="#page_top">ページTOPへ</a>
-                <div class="copyright_sp">copyright (c) © KOC・JAPAN, Inc. all rights reserved.</div>
+                <div class="copyright_sp">Copyright ©︎ 2022 StockStar.inc. All right.</div>
                 <div class="footer_black_sp"></div>
             </footer>
         </body>
