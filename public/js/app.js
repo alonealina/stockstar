@@ -142,10 +142,10 @@ $(function () {
         $('.content6_all').removeClass('none');
         $('.content6_title').addClass('td6s');
         $('.content6_title').removeClass('none');
-        $('.content6_title').css({top: '40%'});
+        $('.content6_title').css({top: '32%'});
         $('.contact_form').addClass('td7s');
         $('.contact_form').removeClass('none');
-        $('.contact_form').css({top: '43%'});
+        $('.contact_form').css({top: '36%'});
 
     }
     
