@@ -130,8 +130,6 @@ $(function () {
         $('.contact_form').removeClass('td7s');
         $('.contact_form').addClass('none');
         $('.contact_form').css({top: '367px'});
-        $('.footer_content').css({position: 'fixed'});
-        $('.footer_content').css({bottom: '-200px'});
 
     } else {
         $('#content1').css({top: '0px'});
@@ -151,9 +149,15 @@ $(function () {
         $('.footer_content').css({position: 'fixed'});
         $('.footer_content').css({bottom: '0px'});
 
-
     }
     
+    if (scroll < head2_1_disappear_px) {
+      $('.footer_content').css({position: 'fixed'});
+      $('.footer_content').css({bottom: '-200px'});
+
+    } 
+
+
     });
 
     var hash = location.hash;
