@@ -142,10 +142,10 @@ $(function () {
         $('.content6_all').removeClass('none');
         $('.content6_title').addClass('td6s');
         $('.content6_title').removeClass('none');
-        $('.content6_title').css({top: '25%'});
+        $('.content6_title').css({top: '200px'});
         $('.contact_form').addClass('td7s');
         $('.contact_form').removeClass('none');
-        $('.contact_form').css({top: '30%'});
+        $('.contact_form').css({top: '267px'});
 
     }
     
@@ -155,7 +155,7 @@ $(function () {
     if (hash == '#company') {
       window.scrollTo(0,2950);
     } else if (hash == '#contact') {
-      window.scrollTo(0,5150);
+      window.scrollTo(0,4500);
     }
 
 });
@@ -186,13 +186,13 @@ $(function(){
 
 $(function(){
   $('#contact_jump').click(function() {
-    document.documentElement.scrollTop = 4650;
+    document.documentElement.scrollTop = 4500;
   });
 });
 
 $(function(){
   $('#contact_jump2').click(function() {
-    document.documentElement.scrollTop = 4650;
+    document.documentElement.scrollTop = 4500;
   });
 });
   
