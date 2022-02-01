@@ -90,6 +90,7 @@ li {
     background: #F4F4F4 0% 0% no-repeat padding-box;
     display: flex;
     flex-wrap: wrap;
+    transition: .5s;
 }
 
 .footer_content_sp, .footer_content_news_sp {

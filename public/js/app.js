@@ -126,10 +126,12 @@ $(function () {
         $('.content6_all').addClass('none');
         $('.content6_title').removeClass('td6s');
         $('.content6_title').addClass('none');
-        $('.content6_title').css({top: '400px'});
+        $('.content6_title').css({top: '300px'});
         $('.contact_form').removeClass('td7s');
         $('.contact_form').addClass('none');
-        $('.contact_form').css({top: '467px'});
+        $('.contact_form').css({top: '367px'});
+        $('.footer_content').css({position: 'fixed'});
+        $('.footer_content').css({bottom: '-200px'});
 
     } else {
         $('#content1').css({top: '0px'});
@@ -146,6 +148,9 @@ $(function () {
         $('.contact_form').addClass('td7s');
         $('.contact_form').removeClass('none');
         $('.contact_form').css({top: '267px'});
+        $('.footer_content').css({position: 'fixed'});
+        $('.footer_content').css({bottom: '0px'});
+
 
     }
     
@@ -155,7 +160,7 @@ $(function () {
     if (hash == '#company') {
       window.scrollTo(0,2950);
     } else if (hash == '#contact') {
-      window.scrollTo(0,4500);
+      window.scrollTo(0,4625);
     }
 
 });
@@ -186,13 +191,13 @@ $(function(){
 
 $(function(){
   $('#contact_jump').click(function() {
-    document.documentElement.scrollTop = 4500;
+    document.documentElement.scrollTop = 4625;
   });
 });
 
 $(function(){
   $('#contact_jump2').click(function() {
-    document.documentElement.scrollTop = 4500;
+    document.documentElement.scrollTop = 4625;
   });
 });
   
