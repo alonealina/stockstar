@@ -33,27 +33,80 @@ $(function () {
         console.log(scroll);
 
         //head表示・非表示開始px
-        head_top_disappear_px = 1300;
-        head1_appear_px = 2000;
+        ipad1_appear_px = 600;
+        sp1_appear_px = 1300;
+        ipad2_appear_px = 1450;
+        sp2_appear_px = 2000;
         sidebar_fixed_px = 870;
 
-        //head表示・非表示(最低限)
-        if (scroll < head_top_disappear_px) {
-            $('.service3_text1_sp').addClass('none');
-            $('.service3_text2_sp').addClass('none');
-            $('.service3_text3_sp').addClass('none');
-            $('.service3_text4_sp').addClass('none');
-
-        } else if (scroll < head1_appear_px) {
-            $('.service3_text1_sp').removeClass('none');
-            $('.service3_text2_sp').removeClass('none');
-            $('.service3_text3_sp').addClass('none');
-            $('.service3_text4_sp').addClass('none');
+        //ipadとSPで出現位置を変えるためのクラス
+        if (window.innerWidth > 600) {
+            $('.service3_text1_sp').addClass('service_ipad1');
+            $('.service3_text2_sp').addClass('service_ipad2');
+            $('.service3_text3_sp').addClass('service_ipad3');
+            $('.service3_text4_sp').addClass('service_ipad4');
+            $('.service3_text1_sp').removeClass('service_sp1');
+            $('.service3_text2_sp').removeClass('service_sp2');
+            $('.service3_text3_sp').removeClass('service_sp3');
+            $('.service3_text4_sp').removeClass('service_sp4');
         } else {
-            $('.service3_text1_sp').removeClass('none');
-            $('.service3_text2_sp').removeClass('none');
-            $('.service3_text3_sp').removeClass('none');
-            $('.service3_text4_sp').removeClass('none');
+            $('.service3_text1_sp').removeClass('service_ipad1');
+            $('.service3_text2_sp').removeClass('service_ipad2');
+            $('.service3_text3_sp').removeClass('service_ipad3');
+            $('.service3_text4_sp').removeClass('service_ipad4');
+            $('.service3_text1_sp').addClass('service_sp1');
+            $('.service3_text2_sp').addClass('service_sp2');
+            $('.service3_text3_sp').addClass('service_sp3');
+            $('.service3_text4_sp').addClass('service_sp4');
+        }
+
+        //head表示・非表示(最低限)
+        if (scroll < ipad1_appear_px) {
+            $('.service_ipad1').addClass('none');
+            $('.service_ipad2').addClass('none');
+            $('.service_ipad3').addClass('none');
+            $('.service_ipad4').addClass('none');
+            $('.service_sp1').addClass('none');
+            $('.service_sp2').addClass('none');
+            $('.service_sp3').addClass('none');
+            $('.service_sp4').addClass('none');
+
+        } else if (scroll < sp1_appear_px) {
+            $('.service_ipad1').removeClass('none');
+            $('.service_ipad2').removeClass('none');
+            $('.service_ipad3').addClass('none');
+            $('.service_ipad4').addClass('none');
+            $('.service_sp1').addClass('none');
+            $('.service_sp2').addClass('none');
+            $('.service_sp3').addClass('none');
+            $('.service_sp4').addClass('none');
+        } else if (scroll < ipad2_appear_px) {
+            $('.service_ipad1').removeClass('none');
+            $('.service_ipad2').removeClass('none');
+            $('.service_ipad3').addClass('none');
+            $('.service_ipad4').addClass('none');
+            $('.service_sp1').removeClass('none');
+            $('.service_sp2').removeClass('none');
+            $('.service_sp3').addClass('none');
+            $('.service_sp4').addClass('none');
+        } else if (scroll < sp2_appear_px) {
+            $('.service_ipad1').removeClass('none');
+            $('.service_ipad2').removeClass('none');
+            $('.service_ipad3').removeClass('none');
+            $('.service_ipad4').removeClass('none');
+            $('.service_sp1').removeClass('none');
+            $('.service_sp2').removeClass('none');
+            $('.service_sp3').addClass('none');
+            $('.service_sp4').addClass('none');
+        } else {
+            $('.service_ipad1').removeClass('none');
+            $('.service_ipad2').removeClass('none');
+            $('.service_ipad3').removeClass('none');
+            $('.service_ipad4').removeClass('none');
+            $('.service_sp1').removeClass('none');
+            $('.service_sp2').removeClass('none');
+            $('.service_sp3').removeClass('none');
+            $('.service_sp4').removeClass('none');
         }
 
         //sidebarのfixed
