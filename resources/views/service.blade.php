@@ -293,9 +293,9 @@
 <div id="service2_sp">
 
     <img src="../../img/logo.png" class="service_logo_sp">
-    <br><br><br>
+    
     <div class="service2_system_sp" hidden>
-        <div class="service2_title system_title_sp none">
+        <div class="service2_title_sp system_title_sp none">
             <div class="title_1_sp">System Development</div>
             <div class="title_2_sp">システム開発事業</div>
         </div>
@@ -310,7 +310,7 @@
     </div>
 
     <div class="service2_block_sp" hidden>
-        <div class="service2_title block_title_sp td3s none">
+        <div class="service2_title_sp block_title_sp td3s none">
             <div class="title_1_sp">Blockchain Service</div>
             <div class="title_2_sp">ブロックチェーンサービス開発</div>
         </div>
@@ -326,7 +326,7 @@
     </div>
 
     <div class="service2_it_sp" hidden>
-        <div class="service2_title it_title_sp td3s none">
+        <div class="service2_title_sp it_title_sp td3s none">
             <div class="title_1_sp">IT Consulting</div>
             <div class="title_2_sp">ITコンサルティング</div>
         </div>
@@ -342,7 +342,7 @@
     </div>
 
     <div class="service2_esti_sp" hidden>
-        <div class="service2_title esti_title_sp td3s none">
+        <div class="service2_title_sp esti_title_sp td3s none">
             <div class="title_1_sp">Asset Management</div>
             <div class="title_2_sp">資産運用のコンサルティング</div>
         </div>
@@ -358,7 +358,7 @@
     </div>
 
     <div class="service2_enter_sp" hidden>
-        <div class="service2_title enter_title_sp td3s none">
+        <div class="service2_title_sp enter_title_sp td3s none">
             <div class="title_1_sp">Entertainment</div>
             <div class="title_2_sp">エンターテイメント</div>
         </div>
@@ -389,9 +389,9 @@
             ワンストップで管理しています。
             </div>
         </div>
-        <br><br><br>
+        
         <img src="../../img/system1.png" class="service_img1_sp">
-        <br><br>
+        
         <div class="service_div2_sp">
             <div class="service3_text3_sp td3s">
             制御系のシステム設計・開発
@@ -404,7 +404,7 @@
             実現します。
             </div>
         </div>
-        <br><br><br>
+        
         <img src="../../img/system2.png" class="service_img2_sp">
     </div>
 
@@ -422,7 +422,7 @@
             の可能性を飛躍させることが出来ます。
             </div>
         </div>
-        <br><br><br>
+        
         <img src="../../img/block1.png" class="service_img1_sp">
         <div class="service_div2_sp">
             <div class="service3_text3_sp td3s">
@@ -437,7 +437,7 @@
             StockStarはそれを実現します。
             </div>
         </div>
-        <br><br>
+        
         <img src="../../img/block2.png" class="service_img2_sp">
     </div>
 
@@ -454,7 +454,7 @@
             「どうしたら良くなるのか？」を常に考え提供します。
             </div>
         </div>
-        <br><br><br>
+        
         <img src="../../img/it1.png" class="service_img1_sp">
         <div class="service_div2_sp">
             <div class="service3_text3_sp td3s">
@@ -468,7 +468,7 @@
             等に関して、対市場戦略をITを活用して実践します。
             </div>
         </div>
-        <br><br>
+        
         <img src="../../img/it2.png" class="service_img2_sp">
     </div>
 
@@ -485,7 +485,7 @@
             StockStarはより有益で正確な情報収集を提供します。
             </div>
         </div>
-        <br><br>
+        
         <img src="../../img/esti1.png" class="service_img1_sp">
         <div class="service_div2_sp">
             <div class="service3_text3_sp td3s">
@@ -500,7 +500,7 @@
             でありたいと願っています。
             </div>
         </div>
-        <br><br>
+        
         <img src="../../img/esti2.png" class="service_img2_sp">
     </div>
 
@@ -517,7 +517,7 @@
                 「ワクワク」を作りたいと思います。
             </div>
         </div>
-        <br><br>
+        
         <img src="../../img/enter1.png" class="service_img1_sp">
         <div class="service_div2_sp">
             <div class="service3_text3_sp td3s">
@@ -532,7 +532,7 @@
                 StockStarは実現していきます。
             </div>
         </div>
-        <br><br>
+        
         <img src="../../img/enter2.png" class="service_img2_sp">
     </div>
 </div>
@@ -540,5 +540,5 @@
 @endsection
 
 @section('footer_px_sp')
-<nav class="footer_content_sp" style="top:3090px;">
+<nav class="footer_content_sp footer_content_service_sp">
 @endsection

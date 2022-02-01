@@ -90,7 +90,7 @@
                         <li><a class="" href="{{ route('service') }}">Service</a></li>
                         <li><a class="" href="{{ route('news') }}">News</a></li>
                         <li><a id="contact_jump2_sp" href="/#contact">Contact</a></li>
-                        <li></li>
+                        <li class="dummy_list"></li>
                     </ul>
                     <div class="copyright_sp">Copyright ©︎ 2022 StockStar.inc. All right.</div>
                 </nav>
@@ -111,8 +111,6 @@
         || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
         document.getElementById('registration_pc').style.display = "none";
         document.getElementById('registration_sp').style.visibility = "visible";
-    } else {
-        document.getElementById('registration_sp').style.display = "none";
     }
     </script>
 </html>
