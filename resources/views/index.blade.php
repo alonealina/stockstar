@@ -71,7 +71,7 @@
         </div>
         <div class="company_column1">
             <div class="detail_title">代表者</div>
-            <div class="detail_content">代表取締役CEO　小林 宏至</div>
+            <div class="detail_content">代表取締役CEO　安次嶺 輝</div>
         </div>
         <div class="company_column1">
             <div class="detail_title">設立</div>
@@ -89,7 +89,7 @@
         </div>
         <div class="company_column1">
             <div class="detail_title mt10">東京本社</div>
-            <div class="detail_content">〒107-0062 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
+            <div class="detail_content">〒106-0032 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
         </div>
         <div class="content4_line"></div>
     </div>
@@ -260,7 +260,7 @@
         </div>
         <div class="company_column1">
             <div class="detail_title_sp">代表者</div>
-            <div class="detail_content_sp">代表取締役CEO　小林 宏至</div>
+            <div class="detail_content_sp">代表取締役CEO　安次嶺 輝</div>
         </div>
         <div class="company_column1">
             <div class="detail_title_sp">設立</div>
@@ -278,7 +278,7 @@
         </div>
         <div class="company_column1">
             <div class="detail_title_sp mt10">東京本社</div>
-            <div class="detail_content_sp">〒107-0062 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
+            <div class="detail_content_sp">〒106-0032 東京都港区六本木七丁目7番７号<br>トライセブンロッポンギ８F</div>
         </div>
         <div class="content4_line"></div>
     </div>
